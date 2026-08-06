@@ -1,0 +1,1995 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=yes" name="viewport"/>
+<meta content="#061216" name="theme-color"/>
+<title>حفل اختتام البرنامج التدريبي للدفعة الأولى من الدبلوم التنفيذي المعتمد لأمن الطيران — جامعة نايف العربية للعلوم الأمنية</title>
+<meta content="حفل اختتام البرنامج التدريبي للدفعة الأولى من الدبلوم التنفيذي المعتمد لأمن الطيران برعاية معالي رئيس الجامعة" name="description"/>
+<style>
+/* ─── Font ─── */
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap');
+
+/* ─── Variables ─── */
+:root{
+  --green:#2a6364;--green-2:#4f8f7a;--gold:#c7b08c;--ink:#061216;
+  --white:#f9f9f9;--line:rgba(199,176,140,.35);--shadow:0 24px 70px rgba(0,0,0,.36);
+  --gold-glow:0 0 40px rgba(199,176,140,.25);
+}
+
+/* ─── Reset ─── */
+*{box-sizing:border-box}
+html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#030b0e;color:var(--white);font-family:'El Messiri',Tahoma,Arial,sans-serif}
+button{font:inherit;cursor:pointer}
+button:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+
+/* ─── App Shell ─── */
+#app{position:fixed;inset:0;background:radial-gradient(circle at 50% 45%,#123a3d 0%,#07171b 48%,#03090c 100%)}
+#deck{position:absolute;left:50%;top:50%;width:1600px;height:900px;transform-origin:center center;will-change:transform;overflow:hidden;border-radius:18px;background:#07171b;box-shadow:0 30px 100px rgba(0,0,0,.58),0 0 0 1px rgba(255,255,255,.06)}
+
+/* ─── Particles Canvas ─── */
+#particles{position:absolute;inset:0;pointer-events:none;z-index:1}
+
+/* ─── Slide Base ─── */
+.slide{position:absolute;inset:0;opacity:0;visibility:hidden;pointer-events:none;transform:translate3d(5%,0,0) scale(.965);filter:blur(5px);transition:opacity .72s ease,transform .82s cubic-bezier(.16,1,.3,1),filter .62s ease,visibility .72s;overflow:hidden;will-change:transform,opacity,filter}
+.slide.active{opacity:1;visibility:visible;pointer-events:auto;transform:translate3d(0,0,0) scale(1);z-index:2}
+.slide.active{filter:blur(0)}
+.slide.prev{transform:translate3d(-5%,0,0) scale(.965);filter:blur(5px)}
+.slide.enter-forward{animation:slideInForward .82s cubic-bezier(.16,1,.3,1) both}
+.slide.enter-backward{animation:slideInBackward .82s cubic-bezier(.16,1,.3,1) both}
+.slide.exit-forward{visibility:visible;animation:slideOutForward .64s cubic-bezier(.4,0,.2,1) both;z-index:1}
+.slide.exit-backward{visibility:visible;animation:slideOutBackward .64s cubic-bezier(.4,0,.2,1) both;z-index:1}
+@keyframes slideInForward{from{opacity:0;transform:translate3d(8%,0,0) scale(1.035);filter:blur(9px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes slideInBackward{from{opacity:0;transform:translate3d(-8%,0,0) scale(1.035);filter:blur(9px)}to{opacity:1;transform:none;filter:blur(0)}}
+@keyframes slideOutForward{from{opacity:1;transform:none;filter:blur(0)}to{opacity:0;transform:translate3d(-6%,0,0) scale(.95);filter:blur(8px)}}
+@keyframes slideOutBackward{from{opacity:1;transform:none;filter:blur(0)}to{opacity:0;transform:translate3d(6%,0,0) scale(.95);filter:blur(8px)}}
+.slide::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(2,10,13,.88) 0%,rgba(2,10,13,.6) 48%,rgba(2,10,13,.8) 100%);pointer-events:none}
+
+/* ─── Backgrounds ─── */
+.slide-bg{position:absolute;inset:-2%;background-size:cover;background-position:center;filter:saturate(.45) contrast(.96) brightness(.5);opacity:.85;transform:scale(1.04);transition:transform 8s ease}
+.slide.active .slide-bg{transform:scale(1.0)}
+.slide-bg::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 56% 42%,transparent 0%,rgba(3,12,15,.15) 38%,rgba(3,12,15,.78) 100%)}
+
+/* ─── Ken Burns ─── */
+.slide-bg.kenburns{animation:kenburns 20s ease-in-out infinite alternate}
+@keyframes kenburns{0%{transform:scale(1.04) translate(0,0)}50%{transform:scale(1.12) translate(-1%,-1%)}100%{transform:scale(1.04) translate(0,0)}}
+.slide.active .slide-bg.kenburns{transform:scale(1.04)}
+.slide-bg.cover-main-bg{inset:0;background-size:auto 100%;background-repeat:no-repeat;background-color:#06171b;background-position:center center;filter:saturate(.82) contrast(1.04) brightness(.58);animation:coverMainZoom 24s ease-in-out infinite alternate}
+@keyframes coverMainZoom{0%{transform:scale(1) translate3d(0,0,0)}100%{transform:scale(1.025) translate3d(0,-.25%,0)}}
+
+/* ─── Ceremony Chapter Dividers ─── */
+.chapter-divider::after{background:linear-gradient(180deg,rgba(2,10,13,.5) 0%,rgba(2,10,13,.76) 62%,rgba(2,10,13,.94) 100%)}
+.chapter-divider .chapter-bg{inset:-5%;filter:saturate(.72) contrast(1.06) brightness(.55);opacity:1;animation:chapterDrift 22s ease-in-out infinite alternate;transform-origin:center 44%}
+@keyframes chapterDrift{0%{transform:scale(1.08) translate3d(-.8%,0,0)}100%{transform:scale(1.15) translate3d(.8%,-1.2%,0)}}
+.chapter-divider .slide-content{justify-content:center;align-items:center;text-align:center;padding:64px 120px 105px}
+.chapter-stage{position:relative;z-index:3;width:min(1120px,86%);display:flex;flex-direction:column;align-items:center;isolation:isolate}
+.chapter-stage::before,.chapter-stage::after{content:"";position:absolute;border:1px solid rgba(199,176,140,.18);border-radius:50%;pointer-events:none;animation:chapterOrbit 16s linear infinite}
+.chapter-stage::before{width:570px;height:570px;top:-120px}
+.chapter-stage::after{width:710px;height:710px;top:-190px;border-style:dashed;animation-direction:reverse;animation-duration:24s}
+@keyframes chapterOrbit{to{transform:rotate(360deg)}}
+.chapter-eyebrow{font-size:16px;letter-spacing:.28em;color:#e2ccaa;margin-bottom:18px;text-transform:uppercase;animation:fadeUp .75s ease both}
+.chapter-logo-wrap{position:relative;width:390px;height:300px;display:grid;place-items:center;margin-bottom:12px;animation:chapterLogoReveal 1s cubic-bezier(.16,1,.3,1) both}
+.chapter-logo-wrap::before{content:"";position:absolute;width:330px;height:330px;border-radius:50%;background:radial-gradient(circle,rgba(199,176,140,.22),rgba(9,31,34,.1) 55%,transparent 72%);filter:blur(2px)}
+.chapter-logo{position:relative;width:360px;height:280px;object-fit:contain;filter:drop-shadow(0 16px 38px rgba(0,0,0,.65)) drop-shadow(0 0 40px rgba(199,176,140,.2))}
+@keyframes chapterLogoReveal{from{opacity:0;transform:translateY(24px) scale(.9);filter:blur(8px)}to{opacity:1;transform:none;filter:blur(0)}}
+.chapter-rule{width:180px;height:2px;margin:2px 0 24px;background:linear-gradient(90deg,transparent,var(--gold),transparent);box-shadow:0 0 18px rgba(199,176,140,.55);animation:ruleGrow 1s ease .25s both}
+@keyframes ruleGrow{from{width:0;opacity:0}to{width:180px;opacity:1}}
+.chapter-title{max-width:1080px;font-size:52px;line-height:1.55;color:#fff;font-weight:700;text-shadow:0 5px 28px rgba(0,0,0,.72);animation:fadeUp .85s ease .18s both}
+.chapter-seq{margin-top:18px;font-size:14px;letter-spacing:.18em;color:rgba(234,217,185,.72);animation:fadeUp .85s ease .32s both}
+
+/* ─── Content ─── */
+.slide-content{position:relative;z-index:3;width:100%;height:100%;padding:90px 80px 150px;display:flex;flex-direction:column}
+.slide-number{position:absolute;bottom:30px;left:36px;width:58px;height:58px;border:1px solid rgba(199,176,140,.65);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-size:18px;background:rgba(2,12,15,.5);z-index:6}
+
+/* ─── Brand / Logo ─── */
+.brand-mini{position:absolute;top:20px;left:24px;z-index:20;height:64px;display:flex;align-items:flex-start;pointer-events:none;transition:opacity .3s}
+.brand-mini img{height:64px;width:auto;object-fit:contain;filter:drop-shadow(0 5px 15px rgba(0,0,0,.46))}
+body:has(.cover.active) .brand-mini,body:has(.closing.active) .brand-mini,body:has(.closing-slide.active) #deck > .brand-mini,body:has(.chapter-divider.active) #deck > .brand-mini{opacity:0}
+
+/* ─── Typography ─── */
+.kicker{color:var(--gold);font-size:20px;letter-spacing:.05em;margin-bottom:12px}
+.h1{font-size:52px;line-height:1.25;margin:0;color:#fff;font-weight:700;text-shadow:0 8px 28px rgba(0,0,0,.36)}
+.h2{font-size:38px;line-height:1.26;margin:0 0 22px;font-weight:700}
+.h3{font-size:24px;line-height:1.45;margin:0 0 12px;color:#fff;font-weight:600}
+.lead{font-size:22px;line-height:1.78;margin:0;color:#f1f5f5}
+.body{font-size:19px;line-height:1.82;margin:0;color:#eef4f4}
+.small{font-size:17px;line-height:1.82}
+.accent{color:var(--gold)}
+
+/* ─── Layout Helpers ─── */
+.title-row{display:flex;align-items:flex-start;justify-content:space-between;gap:34px;margin-bottom:20px;flex-shrink:0}
+.title-row .rule{height:2px;flex:1;background:linear-gradient(90deg,transparent,rgba(199,176,140,.65),transparent);margin-top:26px}
+.section-label{display:inline-flex;align-items:center;gap:10px;color:#ead9b9;font-size:21px;line-height:1.45;font-weight:700;margin-bottom:14px}
+.section-label::before{content:"";width:38px;height:2px;background:var(--gold)}
+.panel{padding:28px 32px;position:relative;overflow:hidden}
+.panel::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:linear-gradient(180deg,var(--gold),transparent)}
+.glass{background:linear-gradient(145deg,rgba(5,22,26,.92),rgba(7,30,34,.84));border:1px solid rgba(199,176,140,.28);box-shadow:var(--shadow);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-radius:28px}
+
+/* ─── Animations ─── */
+@keyframes riseIn{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes scaleIn{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
+@keyframes floatY{from{transform:translateY(-7px)}to{transform:translateY(7px)}}
+@keyframes ringPulse{0%{transform:scale(.92);opacity:.9}100%{transform:scale(1.45);opacity:0}}
+@keyframes bob{0%,100%{transform:translateY(-4px)}50%{transform:translateY(4px)}}
+
+.rise-seq>*{animation:riseIn .6s cubic-bezier(.2,.8,.2,1) both}
+.rise-seq>*:nth-child(1){animation-delay:.05s}
+.rise-seq>*:nth-child(2){animation-delay:.12s}
+.rise-seq>*:nth-child(3){animation-delay:.19s}
+.rise-seq>*:nth-child(4){animation-delay:.26s}
+.rise-seq>*:nth-child(5){animation-delay:.33s}
+.rise-seq>*:nth-child(6){animation-delay:.40s}
+
+/* ─── Cover ─── */
+.cover::after{background:linear-gradient(90deg,rgba(1,10,13,.94) 0%,rgba(1,10,13,.74) 42%,rgba(1,10,13,.14) 74%,rgba(1,10,13,.34) 100%)}
+.cover .slide-bg{filter:saturate(.92) contrast(1.04);opacity:1}
+.cover .slide-content{justify-content:center;align-items:center;text-align:center;padding-right:80px}
+.cover-logo{display:flex;justify-content:center;margin-bottom:24px}
+.cover-logo img{height:140px;width:auto;object-fit:contain;filter:drop-shadow(0 16px 34px rgba(0,0,0,.45))}
+.cover h1{font-size:48px;margin:10px 0 18px}
+.cover .subtitle{font-size:24px;line-height:1.65;color:#f2eee6;max-width:860px}
+.cover .event-meta{display:flex;gap:20px;margin-top:28px;flex-wrap:wrap;justify-content:center}
+.cover .event-meta span{display:inline-flex;align-items:center;gap:10px;background:rgba(199,176,140,.12);border:1px solid rgba(199,176,140,.25);padding:10px 22px;border-radius:999px;font-size:16px;color:#ead9b9}
+.start-btn{display:inline-flex;align-items:center;gap:18px;margin-top:30px;color:#fff;border:1px solid rgba(199,176,140,.45);background:rgba(4,18,22,.46);padding:16px 26px;border-radius:24px;cursor:pointer;text-align:right;font-size:20px;transition:.25s}
+.start-btn:hover{border-color:var(--gold);background:rgba(42,99,100,.34)}
+
+/* ─── Ornaments ─── */
+.gold-ornament{width:120px;height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:18px 0}
+.gold-ornament-center{width:120px;height:3px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:18px auto}
+
+/* ─── Speaker Slide ─── */
+.speaker-slide{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;height:100%}
+.speaker-photo{width:200px;height:200px;border-radius:50%;border:2px solid rgba(199,176,140,.5);background:radial-gradient(circle at 35% 30%,rgba(199,176,140,.22),rgba(5,22,26,.97) 68%);display:grid;place-items:center;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.4),var(--gold-glow)}
+.speaker-photo img{width:100%;height:100%;object-fit:cover}
+.speaker-photo .placeholder{font-size:72px;color:var(--gold);opacity:.6}
+.speaker-name{font-size:36px;font-weight:700;color:#fff;margin:0;text-shadow:0 4px 16px rgba(0,0,0,.4)}
+.speaker-title{font-size:22px;color:var(--gold);margin:0;font-weight:500}
+
+/* ─── Tribute Slide ─── */
+.tribute-slide{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;text-align:center;gap:30px}
+.tribute-text{font-size:64px;font-weight:700;color:var(--gold);line-height:1.4;text-shadow:0 8px 30px rgba(0,0,0,.5),0 0 60px rgba(199,176,140,.2)}
+.tribute-sub{font-size:28px;color:#f2eee6;margin-top:10px}
+
+/* ─── Video Player ─── */
+.video-stage{border-radius:24px;overflow:hidden;position:relative;background:#000;display:flex;flex-direction:column;height:calc(100% - 80px)}
+.video-stage video{width:100%;height:100%;object-fit:contain;display:block}
+.video-stage-large{width:1371px;height:800px;max-width:calc(100% - 60px);max-height:calc(100% - 60px);margin:auto;border-radius:24px;overflow:hidden;position:relative;background:#000;display:flex;flex-direction:column;box-shadow:0 24px 70px rgba(0,0,0,.5)}
+.video-stage-large video{width:100%;height:100%;object-fit:contain;display:block}
+.video-stage-xlarge{width:1543px;height:900px;max-width:calc(100% - 40px);max-height:calc(100% - 40px);margin:auto;border-radius:24px;overflow:hidden;position:relative;background:#000;display:flex;flex-direction:column;box-shadow:0 24px 70px rgba(0,0,0,.5)}
+.video-stage-xlarge video{width:100%;height:100%;object-fit:contain;display:block}
+.video-ctrl-overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(2,10,13,.35);transition:opacity .3s;z-index:10}
+.video-ctrl-overlay.hidden{opacity:0;pointer-events:none}
+.video-ctrl-overlay .play-btn{width:100px;height:100px;border-radius:50%;border:2px solid var(--gold);background:rgba(5,22,26,.8);display:grid;place-items:center;color:var(--gold);font-size:40px;cursor:pointer;transition:.25s;box-shadow:var(--gold-glow)}
+.video-ctrl-overlay .play-btn:hover{transform:scale(1.1);background:rgba(42,99,100,.55)}
+.video-bottom-bar{position:absolute;bottom:0;right:0;left:0;padding:16px 24px;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(transparent,rgba(2,10,13,.85));z-index:15;opacity:0;transition:opacity .3s}
+.video-stage:hover .video-bottom-bar,.video-stage-large:hover .video-bottom-bar,.video-stage-xlarge:hover .video-bottom-bar{opacity:1}
+.video-bottom-bar span{color:#ead9b9;font-size:15px}
+.video-bottom-bar .vbtns{display:flex;gap:12px;align-items:center}
+.video-bottom-bar .vbtn{background:rgba(255,255,255,.1);border:1px solid rgba(199,176,140,.3);color:var(--gold);width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:16px;cursor:pointer;transition:.2s}
+.video-bottom-bar .vbtn:hover{background:rgba(199,176,140,.2);transform:scale(1.1)}
+.video-hint{position:absolute;top:20px;right:24px;background:rgba(2,10,13,.7);padding:8px 16px;border-radius:10px;font-size:14px;color:#d7c29e;border:1px solid rgba(199,176,140,.2);z-index:15;opacity:0;transition:opacity .3s}
+.video-stage:hover .video-hint,.video-stage-large:hover .video-hint,.video-stage-xlarge:hover .video-hint{opacity:1}
+.video-stage{border-radius:24px;overflow:hidden;position:relative;background:#000;display:flex;flex-direction:column;height:calc(100% - 80px)}
+.video-stage video{width:100%;height:100%;object-fit:cover;display:block}
+.video-ctrl-overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(2,10,13,.35);transition:opacity .3s;z-index:10}
+.video-ctrl-overlay.hidden{opacity:0;pointer-events:none}
+.video-ctrl-overlay .play-btn{width:100px;height:100px;border-radius:50%;border:2px solid var(--gold);background:rgba(5,22,26,.8);display:grid;place-items:center;color:var(--gold);font-size:40px;cursor:pointer;transition:.25s;box-shadow:var(--gold-glow)}
+.video-ctrl-overlay .play-btn:hover{transform:scale(1.1);background:rgba(42,99,100,.55)}
+.video-bottom-bar{position:absolute;bottom:0;right:0;left:0;padding:16px 24px;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(transparent,rgba(2,10,13,.85));z-index:15;opacity:0;transition:opacity .3s}
+.video-stage:hover .video-bottom-bar{opacity:1}
+.video-bottom-bar span{color:#ead9b9;font-size:15px}
+.video-bottom-bar .vbtns{display:flex;gap:12px;align-items:center}
+.video-bottom-bar .vbtn{background:rgba(255,255,255,.1);border:1px solid rgba(199,176,140,.3);color:var(--gold);width:36px;height:36px;border-radius:50%;display:grid;place-items:center;font-size:16px;cursor:pointer;transition:.2s}
+.video-bottom-bar .vbtn:hover{background:rgba(199,176,140,.2);transform:scale(1.1)}
+.video-hint{position:absolute;top:20px;right:24px;background:rgba(2,10,13,.7);padding:8px 16px;border-radius:10px;font-size:14px;color:#d7c29e;border:1px solid rgba(199,176,140,.2);z-index:15;opacity:0;transition:opacity .3s}
+.video-stage:hover .video-hint{opacity:1}
+
+/* ─── Full-screen video mode ─── */
+.video-stage-large:fullscreen,.video-stage-xlarge:fullscreen,.video-stage:fullscreen{width:100vw!important;height:100vh!important;max-width:none!important;max-height:none!important;margin:0!important;border-radius:0!important;background:#000;box-shadow:none}
+.video-stage-large:fullscreen video,.video-stage-xlarge:fullscreen video,.video-stage:fullscreen video{width:100%;height:100%;object-fit:contain;background:#000}
+.video-stage-large:fullscreen .video-bottom-bar,.video-stage-xlarge:fullscreen .video-bottom-bar,.video-stage:fullscreen .video-bottom-bar{opacity:1;padding:28px 34px 22px;background:linear-gradient(transparent,rgba(0,0,0,.92))}
+.video-stage-large:fullscreen .vbtn,.video-stage-xlarge:fullscreen .vbtn,.video-stage:fullscreen .vbtn{width:48px;height:48px;font-size:21px;background:rgba(2,10,13,.72);border-color:rgba(199,176,140,.55)}
+.video-stage-large:fullscreen .video-hint,.video-stage-xlarge:fullscreen .video-hint,.video-stage:fullscreen .video-hint{opacity:.9}
+.video-theater-fallback{position:fixed!important;inset:0!important;width:1600px!important;height:900px!important;max-width:none!important;max-height:none!important;margin:0!important;border-radius:0!important;z-index:1000!important;background:#000!important;box-shadow:none!important}
+.video-theater-fallback .video-bottom-bar{opacity:1!important;padding:28px 34px 22px}
+.video-theater-fallback .video-hint{opacity:.9!important}
+.video-bottom-bar .video-fs-btn{font-size:19px}
+.video-bottom-bar .video-play-toggle{font-size:15px}
+.video-nav-bar{display:none;position:absolute;left:50%;bottom:18px;transform:translateX(-50%);z-index:30;direction:ltr;align-items:center;gap:8px;padding:6px 14px;border:1px solid rgba(199,176,140,.25);border-radius:999px;background:rgba(3,12,15,.5);backdrop-filter:blur(10px);opacity:.55;transition:opacity .25s ease,background .25s ease;box-shadow:0 8px 28px rgba(0,0,0,.28)}
+.video-nav-bar:hover,.video-nav-bar:focus-within{opacity:.92;background:rgba(2,10,13,.72)}
+.video-nav-bar button{width:40px;height:40px;border:1px solid rgba(199,176,140,.24);border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.07);color:#fff;font-size:26px;line-height:1;cursor:pointer;transition:.2s}
+.video-nav-bar button:hover{background:rgba(199,176,140,.2);border-color:rgba(199,176,140,.58);transform:scale(1.06)}
+.video-nav-counter{min-width:68px;text-align:center;color:#e5d3b3;font-size:14px;direction:ltr}
+.video-stage-large:fullscreen .video-nav-bar,.video-stage-xlarge:fullscreen .video-nav-bar,.video-stage:fullscreen .video-nav-bar,.video-theater-fallback .video-nav-bar{display:flex}
+
+/* ─── Cert Stage ─── */
+.cert-row{display:flex;justify-content:center;gap:40px;flex-wrap:wrap;align-items:center}
+.cert-orb{width:180px;height:180px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;border:1px solid rgba(199,176,140,.5);background:radial-gradient(circle at 35% 30%,rgba(199,176,140,.22),rgba(5,22,26,.97) 68%);font-size:17px;font-weight:700;line-height:1.4;padding:18px;box-shadow:0 20px 46px rgba(0,0,0,.36);color:#fff}
+.cert-orb .ic{font-size:40px;color:var(--gold)}
+.cert-arrow{font-size:36px;color:var(--gold)}
+
+/* ─── Photo Stage ─── */
+.photo-stage{position:relative;border-radius:24px;overflow:hidden;border:1px solid rgba(199,176,140,.25);min-height:400px;display:flex;align-items:center;justify-content:center;background:linear-gradient(145deg,rgba(5,22,26,.95),rgba(7,30,34,.9));flex:1;min-height:0}
+.photo-placeholder{display:flex;flex-direction:column;align-items:center;gap:14px;color:#d7c29e}
+.photo-placeholder svg{width:72px;height:72px;opacity:.5}
+
+/* ─── Closing ─── */
+.closing::after{background:linear-gradient(90deg,rgba(1,10,13,.92) 0%,rgba(1,10,13,.7) 45%,rgba(1,10,13,.3) 100%)}
+.closing .slide-content{justify-content:center;align-items:center;text-align:center}
+.closing .closing-logo{display:flex;justify-content:center;margin-bottom:28px}
+.closing .closing-logo img{height:140px;width:auto;object-fit:contain;filter:drop-shadow(0 16px 34px rgba(0,0,0,.45))}
+.closing h1{font-size:64px;margin-bottom:16px}
+.closing .closing-sub{font-size:26px;color:#f2eee6;margin-bottom:36px}
+.closing .closing-brand{font-size:19px;color:#d7c29e;margin-bottom:40px}
+.closing-actions{display:flex;gap:16px;justify-content:center}
+.closing-actions button{border:1px solid rgba(199,176,140,.45);background:rgba(4,18,22,.6);color:#fff;padding:14px 28px;border-radius:24px;font-size:18px;transition:.25s}
+.closing-actions button:hover{border-color:var(--gold);background:rgba(42,99,100,.4)}
+.closing-footer{position:absolute;bottom:28px;left:0;right:0;display:flex;justify-content:space-between;padding:0 60px;font-size:15px;color:#8fa8a8}
+
+/* ─── Controls ─── */
+#controls{position:absolute;bottom:18px;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:8px;z-index:30;background:rgba(3,12,15,.82);border:1px solid rgba(199,176,140,.25);border-radius:999px;padding:6px 14px;backdrop-filter:blur(10px)}
+.ctrl{width:40px;height:40px;border-radius:50%;border:none;background:transparent;color:var(--white);font-size:20px;display:grid;place-items:center;transition:.2s}
+.ctrl:hover{background:rgba(199,176,140,.18);color:var(--gold)}
+#counter{font-size:14px;color:#a3b5b5;min-width:72px;text-align:center;direction:ltr}
+
+/* ─── Progress ─── */
+#progress{position:absolute;bottom:0;left:0;height:3px;background:linear-gradient(90deg,var(--gold),#e8d5b5);width:0%;transition:width .35s ease;z-index:25}
+#deck:has(.slide:first-of-type.active) #counter,#deck:has(.slide.closing.active) #counter{visibility:hidden}
+
+/* ─── Menu ─── */
+#menu{position:absolute;inset:0;background:rgba(2,10,13,.96);z-index:40;display:flex;flex-direction:column;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:opacity .35s,visibility .35s}
+#menu.open{opacity:1;visibility:visible}
+.menu-head{display:flex;align-items:center;justify-content:space-between;width:640px;max-width:90%;margin-bottom:30px}
+.menu-head h2{font-size:32px;margin:0}
+.menu-close{border:1px solid rgba(199,176,140,.4);background:rgba(4,18,22,.6);color:#fff;padding:10px 22px;border-radius:20px;font-size:16px}
+.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;width:640px;max-width:90%;max-height:70vh;overflow:auto}
+.menu-item{text-align:right;background:rgba(5,23,27,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:16px 20px;color:#fff;cursor:pointer;transition:.25s;font-size:17px;display:flex;align-items:center;gap:12px}
+.menu-item:hover,.menu-item.active{border-color:var(--gold);background:rgba(42,99,100,.45)}
+.menu-item .mn{color:var(--gold);font-size:15px;min-width:32px}
+
+/* ─── Toast ─── */
+#toast{position:absolute;top:22px;left:50%;transform:translateX(-50%) translateY(-10px);background:rgba(5,22,26,.92);border:1px solid rgba(199,176,140,.35);color:#ead9b9;padding:10px 22px;border-radius:20px;font-size:15px;opacity:0;pointer-events:none;transition:opacity .3s,transform .3s;z-index:50}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+
+/* ─── Dramatic Cover ─── */
+.cover .slide-content{justify-content:center;align-items:center;text-align:center;padding:60px 80px 150px;position:relative}
+.cover-aura{position:absolute;border-radius:50%;filter:blur(80px);opacity:.35;pointer-events:none;z-index:2}
+.cover-aura.a1{width:400px;height:400px;background:radial-gradient(circle,var(--gold),transparent 70%);top:10%;right:20%;animation:floatAura1 12s ease-in-out infinite}
+.cover-aura.a2{width:300px;height:300px;background:radial-gradient(circle,#2a6364,transparent 70%);bottom:15%;left:15%;animation:floatAura2 15s ease-in-out infinite}
+@keyframes floatAura1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-30px,20px) scale(1.1)}}
+@keyframes floatAura2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(20px,-30px) scale(1.15)}}
+.cover-logo-wrap{position:absolute;top:20px;right:0;left:0;display:flex;justify-content:center;z-index:5;margin-bottom:20px;animation:logoReveal 1.2s cubic-bezier(.2,.8,.2,1) both}
+.cover-logo-wrap img{height:160px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 40px rgba(199,176,140,.2));animation:logoGlow 4s ease-in-out infinite}
+@keyframes logoReveal{from{opacity:0;transform:translateY(30px) scale(.9)}to{opacity:1;transform:none}}
+@keyframes logoGlow{0%,100%{filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 30px rgba(199,176,140,.15))}50%{filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 60px rgba(199,176,140,.35))}}
+.cover-title-wrap{position:relative;z-index:5;text-align:center;animation:titleReveal 1.4s cubic-bezier(.2,.8,.2,1) .3s both}
+.cover-title-wrap h1{font-size:46px;line-height:1.35;margin:0 0 16px;color:#fff;font-weight:700;text-shadow:0 4px 20px rgba(0,0,0,.4),0 0 80px rgba(199,176,140,.1)}
+.cover-title-wrap .subtitle{font-size:22px;color:#ead9b9;margin-bottom:20px;text-shadow:0 2px 10px rgba(0,0,0,.4)}
+.cover-title-wrap .meta-line{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-bottom:24px;text-align:center;animation:fadeUp .8s ease .8s both}
+.cover-title-wrap .meta-line span{background:rgba(199,176,140,.1);border:1px solid rgba(199,176,140,.25);padding:8px 20px;border-radius:999px;font-size:15px;color:#ead9b9;backdrop-filter:blur(8px)}
+.cover-title-wrap .event-tag{font-size:28px;color:var(--gold);font-weight:700;margin-bottom:8px;animation:fadeUp .8s ease .6s both;text-shadow:0 0 30px rgba(199,176,140,.3)}
+.cover-deco{position:absolute;inset:0;z-index:3;pointer-events:none}
+.cover-deco::before,.cover-deco::after{content:"";position:absolute;width:200px;height:200px;border:1px solid rgba(199,176,140,.15);border-radius:50%}
+.cover-deco::before{top:10%;left:10%;animation:rotateSlow 30s linear infinite}
+.cover-deco::after{bottom:10%;right:10%;width:150px;height:150px;animation:rotateSlow 25s linear infinite reverse}
+@keyframes rotateSlow{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+.cover-bottom-glow{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:600px;height:200px;background:radial-gradient(ellipse at center,rgba(199,176,140,.12),transparent 70%);pointer-events:none;z-index:2}
+
+
+/* ─── Opening Logo ─── */
+.opening-logo-wrap{display:flex;justify-content:center;margin-bottom:20px;animation:logoReveal 1s cubic-bezier(.2,.8,.2,1) both}
+.opening-logo-wrap img{height:180px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 50px rgba(199,176,140,.15));animation:logoGlow 4s ease-in-out infinite}
+
+
+/* ─── Graduate Hero Slides ─── */
+.grad-deco-ring{position:absolute;inset:80px;border:1px solid rgba(199,176,140,.08);border-radius:50%;pointer-events:none;z-index:2;transform:rotate(var(--rd,0deg))}
+.grad-card-hero{position:relative;z-index:5;display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center;animation:riseIn .8s cubic-bezier(.2,.8,.2,1) both}
+.grad-num-badge{position:absolute;top:-20px;left:50%;transform:translateX(-50%);width:48px;height:48px;border-radius:50%;background:linear-gradient(145deg,rgba(199,176,140,.25),rgba(199,176,140,.1));border:1px solid rgba(199,176,140,.4);display:grid;place-items:center;color:var(--gold);font-size:18px;font-weight:700;backdrop-filter:blur(8px);box-shadow:0 4px 20px rgba(0,0,0,.3)}
+.grad-photo-wrap{position:relative;width:280px;height:280px;margin-top:20px}
+.grad-photo-ring{position:absolute;inset:-8px;border-radius:50%;border:2px solid rgba(199,176,140,.3);box-shadow:0 0 40px rgba(199,176,140,.15),inset 0 0 30px rgba(199,176,140,.05);animation:ringRotate 20s linear infinite}
+@keyframes ringRotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+.grad-photo-img{width:100%;height:100%;border-radius:50%;object-fit:cover;border:3px solid rgba(199,176,140,.5);box-shadow:0 20px 60px rgba(0,0,0,.5),0 0 0 1px rgba(199,176,140,.2)}
+.grad-divider{width:80px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:6px 0}
+.grad-name-hero{font-size:38px;font-weight:700;color:#fff;margin:0;text-shadow:0 4px 20px rgba(0,0,0,.5);letter-spacing:.02em}
+.grad-country{display:flex;align-items:center;gap:12px;background:rgba(5,22,26,.7);border:1px solid rgba(199,176,140,.25);padding:10px 24px;border-radius:999px;backdrop-filter:blur(10px);margin-top:4px}
+.grad-flag{font-size:28px;line-height:1}
+.grad-country-name{font-size:18px;color:#ead9b9;font-weight:500}
+
+/* ─── Responsive ─── */
+@media(max-width:900px) and (orientation:portrait){#deck{transform:none!important;left:0;top:0;width:100vw;height:var(--app-vh,100vh);border-radius:0}}
+
+/* ─── FX Show ─── */
+.fx-show{opacity:1!important;transform:none!important}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:rgba(5,22,26,.5)}
+::-webkit-scrollbar-thumb{background:rgba(199,176,140,.3);border-radius:3px}
+::-webkit-scrollbar-thumb:hover{background:rgba(199,176,140,.5)}
+
+
+  --green:#2a6364;--green-2:#4f8f7a;--gold:#c7b08c;--gold-hi:#ecd6ab;--ink:#061216;
+  --white:#f9f9f9;--muted:#93aaa9;--line:rgba(199,176,140,.35);
+  --shadow:0 24px 70px rgba(0,0,0,.36);--gold-glow:0 0 40px rgba(199,176,140,.25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+   SLIDE 1 — COVER
+   ═══════════════════════════════════════════ */
+.cover-aura{position:absolute;border-radius:50%;filter:blur(80px);opacity:.35;pointer-events:none;z-index:2}
+.cover-aura.a1{width:400px;height:400px;background:radial-gradient(circle,var(--gold),transparent 70%);top:10%;right:20%;animation:floatAura1 12s ease-in-out infinite}
+.cover-aura.a2{width:300px;height:300px;background:radial-gradient(circle,var(--green),transparent 70%);bottom:15%;left:15%;animation:floatAura2 15s ease-in-out infinite}
+@keyframes floatAura1{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-30px,20px) scale(1.1)}}
+@keyframes floatAura2{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(20px,-30px) scale(1.15)}}
+
+.cover-title-wrap{position:relative;z-index:5;animation:titleReveal 1.4s cubic-bezier(.2,.8,.2,1) .3s both}
+.cover-title-wrap .kicker{font-size:28px;color:var(--gold);font-weight:700;margin-bottom:16px;letter-spacing:.08em}
+.cover-title-wrap h1{font-size:78px;line-height:1.2;margin:0 0 24px;color:#fff;font-weight:700;text-shadow:0 4px 30px rgba(0,0,0,.5),0 0 100px rgba(199,176,140,.1)}
+.cover-title-wrap .subtitle{font-size:32px;color:#ead9b9;margin-bottom:40px;text-shadow:0 2px 15px rgba(0,0,0,.4);max-width:800px;line-height:1.7}
+.cover-title-wrap .meta-line{display:flex;gap:32px;justify-content:center;flex-wrap:wrap;margin-bottom:24px;animation:fadeUp .8s ease .8s both}
+.cover-title-wrap .meta-line span{background:rgba(199,176,140,.1);border:1px solid rgba(199,176,140,.25);padding:10px 24px;border-radius:999px;font-size:20px;color:#ead9b9;backdrop-filter:blur(8px)}
+.cover-deco{position:absolute;inset:0;z-index:3;pointer-events:none}
+.cover-deco::before,.cover-deco::after{content:"";position:absolute;width:200px;height:200px;border:1px solid rgba(199,176,140,.15);border-radius:50%}
+.cover-deco::before{top:10%;left:10%;animation:rotateSlow 30s linear infinite}
+.cover-deco::after{bottom:10%;right:10%;width:150px;height:150px;animation:rotateSlow 25s linear infinite reverse}
+@keyframes rotateSlow{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+@keyframes titleReveal{from{opacity:0;transform:translateY(40px)}to{opacity:1;transform:none}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+
+   SLIDE 2 — TIMELINE (Journey)
+   ═══════════════════════════════════════════ */
+.timeline-header{text-align:center;margin-bottom:14px;animation:fadeUp .8s ease both}
+.timeline-header .kicker{font-size:20px;color:var(--gold);font-weight:700;letter-spacing:.12em;margin-bottom:6px}
+.timeline-header h2{font-size:48px;color:#fff;font-weight:700;text-shadow:0 4px 20px rgba(0,0,0,.4)}
+.timeline-header .intro-text{font-size:20px;color:var(--muted);max-width:900px;margin:8px auto 0;line-height:1.6}
+
+.timeline-wrap{position:relative;flex:1;display:flex;flex-direction:column;justify-content:center;gap:0;max-height:500px}
+.timeline-line{position:absolute;right:50%;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,transparent,var(--gold) 10%,var(--gold) 90%,transparent);transform:translateX(50%);z-index:1}
+.timeline-item{position:relative;display:flex;align-items:center;gap:28px;padding:6px 0;z-index:2}
+.timeline-item:nth-child(odd){flex-direction:row-reverse}
+.timeline-item:nth-child(odd) .timeline-year{margin-left:0;margin-right:auto}
+.timeline-item:nth-child(odd) .timeline-text{text-align:right}
+
+.timeline-year{flex-shrink:0;width:120px;text-align:center;font-size:52px;font-weight:700;color:var(--gold);text-shadow:0 0 20px rgba(199,176,140,.4);position:relative}
+.timeline-year::after{content:'';position:absolute;left:50%;bottom:-14px;transform:translateX(-50%);width:12px;height:12px;background:var(--gold);border-radius:50%;box-shadow:0 0 15px rgba(199,176,140,.6);border:2px solid #07171b}
+.timeline-text{flex:1;background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:12px;padding:12px 20px;backdrop-filter:blur(10px);font-size:22px;color:#e8ddd0;line-height:1.6;box-shadow:0 6px 20px rgba(0,0,0,.3);text-align:right}
+.timeline-text strong{color:var(--gold);font-weight:600}
+
+   SLIDE 3 — STRATEGY (Four Pillars)
+   ═══════════════════════════════════════════ */
+.strategy-header{text-align:center;margin-bottom:24px;animation:fadeUp .8s ease both}
+.strategy-header .kicker{font-size:20px;color:var(--gold);font-weight:700;letter-spacing:.15em;margin-bottom:6px}
+.strategy-header h2{font-size:46px;color:#fff;font-weight:700;text-shadow:0 4px 20px rgba(0,0,0,.4);margin-bottom:8px}
+.strategy-header .vision-text{font-size:22px;color:var(--muted);max-width:800px;margin:0 auto;line-height:1.7}
+
+.pillars-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:32px;flex:1;align-content:center}
+.pillar-card{background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:18px;padding:28px 32px;backdrop-filter:blur(10px);box-shadow:0 8px 30px rgba(0,0,0,.3);transition:.3s;position:relative;overflow:hidden}
+.pillar-card::before{content:'';position:absolute;top:0;right:0;left:0;height:3px;background:linear-gradient(90deg,var(--gold),transparent);opacity:.6}
+.pillar-card:hover{border-color:rgba(199,176,140,.4);transform:translateY(-4px)}
+.pillar-card .pillar-title{font-size:26px;color:var(--gold);font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:10px}
+.pillar-card .pillar-desc{font-size:19px;color:#c8d5d3;line-height:1.7;margin-bottom:12px}
+.pillar-card .pillar-status{display:inline-flex;align-items:center;gap:8px;font-size:18px;padding:6px 16px;border-radius:999px;background:rgba(42,99,100,.3);border:1px solid rgba(79,143,122,.4);color:#a3d5c5}
+.pillar-card .pillar-status.active{background:rgba(79,143,122,.2);border-color:rgba(79,143,122,.5);color:#8fd4b8}
+
+.enablers{text-align:center;margin-top:20px;font-size:19px;color:var(--muted);animation:fadeUp .8s ease .4s both}
+.enablers strong{color:var(--gold);font-weight:600}
+
+   SLIDE 3B — STRATEGIC DIRECTIONS (Proposed)
+   ═══════════════════════════════════════════ */
+.directions-header{text-align:center;margin-bottom:28px;animation:fadeUp .8s ease both}
+.directions-header .kicker{font-size:20px;color:var(--gold);font-weight:700;letter-spacing:.15em;margin-bottom:6px}
+.directions-header h2{font-size:44px;color:#fff;font-weight:700;text-shadow:0 4px 20px rgba(0,0,0,.4);margin-bottom:6px}
+.directions-header .sub{font-size:22px;color:var(--muted)}
+
+.directions-wrap{display:flex;flex-direction:column;gap:32px;flex:1;justify-content:center}
+.direction-card{background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:18px;padding:28px 36px;backdrop-filter:blur(10px);box-shadow:0 8px 30px rgba(0,0,0,.3);position:relative;overflow:hidden;animation:fadeUp .8s ease both}
+.direction-card:nth-child(1){animation-delay:.1s}
+.direction-card:nth-child(2){animation-delay:.2s}
+.direction-card::before{content:'';position:absolute;top:0;right:0;width:120px;height:120px;background:radial-gradient(circle at 100% 0%,rgba(199,176,140,.08),transparent 70%);pointer-events:none}
+.direction-card .dir-num{position:absolute;top:16px;left:24px;font-size:48px;font-weight:700;color:rgba(199,176,140,.08);line-height:1}
+.direction-card .dir-title{font-size:28px;color:var(--gold);font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:12px}
+.direction-card .dir-title .dot{width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px rgba(199,176,140,.5)}
+.direction-card .dir-body{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.direction-card .dir-section h4{font-size:19px;color:#8fa8a8;font-weight:600;margin-bottom:8px;letter-spacing:.04em}
+.direction-card .dir-section p{font-size:20px;color:#d0e0de;line-height:1.8}
+.direction-card .dir-section p strong{color:var(--gold-hi)}
+
+.conclusion-box{background:linear-gradient(135deg,rgba(42,99,100,.25),rgba(10,35,38,.6));border:1px solid rgba(199,176,140,.3);border-radius:16px;padding:20px 32px;text-align:center;margin-top:8px;animation:fadeUp .8s ease .3s both}
+.conclusion-box p{font-size:24px;color:var(--gold);font-weight:600;line-height:1.7}
+
+   SLIDE 4 — CHALLENGES (9 Cards)
+   ═══════════════════════════════════════════ */
+.challenges-header{text-align:center;margin-bottom:24px;animation:fadeUp .8s ease both}
+.challenges-header .kicker{font-size:20px;color:var(--gold);font-weight:700;letter-spacing:.15em;margin-bottom:6px}
+.challenges-header h2{font-size:44px;color:#fff;font-weight:700;margin-bottom:6px}
+.challenges-header .sub{font-size:24px;color:var(--muted);max-width:800px;margin:0 auto;line-height:1.7}
+
+.challenges-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;flex:1;align-content:center}
+.challenge-card{background:rgba(5,22,26,.8);border:1px solid rgba(199,176,140,.15);border-radius:14px;padding:20px 22px;text-align:center;backdrop-filter:blur(8px);transition:.25s;position:relative;overflow:hidden;animation:fadeUp .6s ease both}
+.challenge-card:nth-child(1){animation-delay:.05s}.challenge-card:nth-child(2){animation-delay:.1s}.challenge-card:nth-child(3){animation-delay:.15s}
+.challenge-card:nth-child(4){animation-delay:.2s}.challenge-card:nth-child(5){animation-delay:.25s}.challenge-card:nth-child(6){animation-delay:.3s}
+.challenge-card:nth-child(7){animation-delay:.35s}.challenge-card:nth-child(8){animation-delay:.4s}.challenge-card:nth-child(9){animation-delay:.45s}
+.challenge-card:hover{border-color:rgba(199,176,140,.4);transform:translateY(-3px);box-shadow:0 12px 40px rgba(0,0,0,.4)}
+.challenge-card .ch-num{font-size:34px;font-weight:700;color:rgba(199,176,140,.15);position:absolute;top:8px;left:14px;line-height:1}
+.challenge-card .ch-title-ar{font-size:22px;color:var(--gold);font-weight:700;margin-bottom:6px}
+.challenge-card .ch-title-en{font-size:17px;color:var(--muted);font-weight:500;letter-spacing:.02em}
+
+   SLIDE 5 — RESPONSE 1 (National Priority)
+   ═══════════════════════════════════════════ */
+.response-header{text-align:center;margin-bottom:28px;animation:fadeUp .8s ease both}
+.response-header .kicker{font-size:20px;color:var(--gold);font-weight:700;letter-spacing:.15em;margin-bottom:6px}
+.response-header h2{font-size:44px;color:#fff;font-weight:700;margin-bottom:6px}
+.response-header .sub{font-size:26px;color:var(--muted)}
+
+.response-body{display:flex;flex-direction:column;gap:32px;flex:1;justify-content:center}
+.response-text{background:rgba(5,22,26,.8);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:28px 36px;backdrop-filter:blur(8px);font-size:22px;color:#d8e8e6;line-height:1.9;text-align:center;animation:fadeUp .8s ease both}
+.response-text strong{color:var(--gold)}
+.response-text .lang-en{display:block;margin-top:12px;font-size:19px;color:#8fa8a8;font-style:italic}
+
+.response-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;animation:fadeUp .8s ease .2s both}
+.r-card{background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:24px;text-align:center;backdrop-filter:blur(8px);transition:.3s}
+.r-card:hover{border-color:rgba(199,176,140,.4);transform:translateY(-4px)}
+.r-card .r-icon{font-size:44px;margin-bottom:12px}
+.r-card .r-title-ar{font-size:24px;color:var(--gold);font-weight:700;margin-bottom:6px}
+.r-card .r-title-en{font-size:17px;color:var(--muted);margin-bottom:10px}
+.r-card .r-desc{font-size:18px;color:#b8c8c6;line-height:1.7}
+
+   SLIDE 6 — RESPONSE 2 (Integrated Ecosystem)
+   ═══════════════════════════════════════════ */
+.eco-header{text-align:center;margin-bottom:24px;animation:fadeUp .8s ease both}
+.eco-header .kicker{font-size:20px;color:var(--gold);font-weight:700;letter-spacing:.15em;margin-bottom:6px}
+.eco-header h2{font-size:44px;color:#fff;font-weight:700;margin-bottom:6px}
+.eco-header .sub{font-size:24px;color:var(--muted);max-width:800px;margin:0 auto;line-height:1.7}
+
+.eco-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;flex:1;align-content:center;animation:fadeUp .8s ease .15s both}
+.eco-card{background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:18px;padding:32px 28px;text-align:center;backdrop-filter:blur(10px);transition:.3s;position:relative;overflow:hidden}
+.eco-card::before{content:'';position:absolute;top:0;right:0;left:0;height:3px;background:linear-gradient(90deg,var(--gold),transparent);opacity:.5}
+.eco-card:hover{border-color:rgba(199,176,140,.4);transform:translateY(-5px);box-shadow:0 15px 45px rgba(0,0,0,.4)}
+.eco-card .eco-num{font-size:50px;font-weight:700;color:rgba(199,176,140,.1);position:absolute;top:12px;left:18px;line-height:1}
+.eco-card .eco-icon{font-size:48px;margin-bottom:16px}
+.eco-card .eco-title-ar{font-size:26px;color:var(--gold);font-weight:700;margin-bottom:8px}
+.eco-card .eco-title-en{font-size:18px;color:var(--muted);margin-bottom:14px}
+.eco-card .eco-desc{font-size:19px;color:#c0d4d2;line-height:1.8}
+
+   SLIDE 7 — EIGHT PILLARS (Circular)
+   ═══════════════════════════════════════════ */
+.pillars8-header{text-align:center;margin-bottom:16px;animation:fadeUp .8s ease both}
+.pillars8-header .kicker{font-size:20px;color:var(--gold);font-weight:700;letter-spacing:.15em;margin-bottom:6px}
+.pillars8-header h2{font-size:42px;color:#fff;font-weight:700;margin-bottom:4px}
+.pillars8-header .sub{font-size:22px;color:var(--muted)}
+
+.pillars8-wrap{position:relative;width:700px;height:520px;flex-shrink:0;animation:fadeScale 1s cubic-bezier(.2,.8,.2,1) .2s both}
+@keyframes fadeScale{from{opacity:0;transform:scale(.9)}to{opacity:1;transform:scale(1)}}
+
+.pillar8-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:200px;height:200px;border-radius:50%;background:radial-gradient(circle,rgba(42,99,100,.6),rgba(5,22,26,.95) 70%);border:2px solid rgba(199,176,140,.3);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;z-index:5;box-shadow:0 0 60px rgba(199,176,140,.15),inset 0 0 40px rgba(199,176,140,.05)}
+.pillar8-center .p8-title-ar{font-size:24px;color:var(--gold);font-weight:700;line-height:1.3}
+.pillar8-center .p8-title-en{font-size:16px;color:var(--muted);margin-top:4px;letter-spacing:.06em}
+
+.pillar8-item{position:absolute;width:180px;padding:12px 14px;background:rgba(5,22,26,.9);border:1px solid rgba(199,176,140,.25);border-radius:12px;text-align:center;backdrop-filter:blur(8px);box-shadow:0 6px 20px rgba(0,0,0,.3);transition:.25s}
+.pillar8-item:hover{border-color:var(--gold);transform:scale(1.05)}
+.pillar8-item .p8-num{font-size:15px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-bottom:4px}
+.pillar8-item .p8-title-ar{font-size:18px;color:#fff;font-weight:700;line-height:1.4}
+.pillar8-item .p8-title-en{font-size:15px;color:var(--muted);margin-top:2px}
+
+/* Position 8 items in a circle */
+.pillar8-item:nth-child(1){right:10px;top:50%;transform:translateY(-50%)}
+.pillar8-item:nth-child(2){right:55px;top:8%}
+.pillar8-item:nth-child(3){left:50%;top:0;transform:translateX(-50%)}
+.pillar8-item:nth-child(4){left:55px;top:8%}
+.pillar8-item:nth-child(5){left:10px;top:50%;transform:translateY(-50%)}
+.pillar8-item:nth-child(6){left:55px;bottom:8%}
+.pillar8-item:nth-child(7){left:50%;bottom:0;transform:translateX(-50%)}
+.pillar8-item:nth-child(8){right:55px;bottom:8%}
+.pillar8-item:nth-child(1):hover{transform:translateY(-50%) scale(1.05)}
+.pillar8-item:nth-child(5):hover{transform:translateY(-50%) scale(1.05)}
+.pillar8-item:nth-child(3):hover{transform:translateX(-50%) scale(1.05)}
+.pillar8-item:nth-child(7):hover{transform:translateX(-50%) scale(1.05)}
+
+/* Connector lines */
+.pillar8-connector{position:absolute;inset:0;pointer-events:none;z-index:1}
+.pillar8-connector svg{width:100%;height:100%}
+
+   SLIDE 8 — DIPLOMA INTRO (Stats)
+   ═══════════════════════════════════════════ */
+.diploma-header{text-align:center;margin-bottom:28px;animation:fadeUp .8s ease both}
+.diploma-header h2{font-size:48px;color:#fff;font-weight:700;margin-bottom:6px}
+.diploma-header .sub{font-size:26px;color:var(--gold);font-weight:500}
+
+.diploma-intro{background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:20px 36px;text-align:center;backdrop-filter:blur(8px);font-size:22px;color:#d0e0de;line-height:1.8;margin-bottom:24px;max-width:900px;animation:fadeUp .8s ease .1s both}
+
+.diploma-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-bottom:20px;max-width:1000px;animation:fadeUp .8s ease .2s both}
+.stat-card{background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:24px 18px;text-align:center;backdrop-filter:blur(8px);transition:.3s}
+.stat-card:hover{border-color:rgba(199,176,140,.4);transform:translateY(-4px)}
+.stat-card .stat-value{font-size:44px;font-weight:700;color:var(--gold);margin-bottom:6px;text-shadow:0 0 20px rgba(199,176,140,.3)}
+.stat-card .stat-label-ar{font-size:19px;color:#fff;font-weight:600;margin-bottom:4px}
+.stat-card .stat-label-en{font-size:16px;color:var(--muted)}
+
+.diploma-extra{display:flex;gap:32px;justify-content:center;animation:fadeUp .8s ease .35s both}
+.diploma-extra .extra-badge{background:rgba(42,99,100,.25);border:1px solid rgba(79,143,122,.4);border-radius:999px;padding:10px 24px;font-size:19px;color:#a3d5c5}
+
+   SLIDE 9 — GATEWAY (Flow Diagram)
+   ═══════════════════════════════════════════ */
+.gateway-header{text-align:center;margin-bottom:24px;animation:fadeUp .8s ease both}
+.gateway-header .kicker{font-size:20px;color:var(--gold);font-weight:700;letter-spacing:.15em;margin-bottom:6px}
+.gateway-header h2{font-size:44px;color:#fff;font-weight:700;margin-bottom:4px}
+
+.gateway-body{display:flex;gap:54px;flex:1;align-items:center}
+.gateway-left{flex:1;display:flex;flex-direction:column;gap:32px;animation:fadeUp .8s ease .1s both}
+.gateway-left .gate-item{background:rgba(5,22,26,.8);border-right:4px solid rgba(199,176,140,.4);border-radius:12px;padding:18px 24px;font-size:24px;color:#d0e0de;line-height:1.6;transition:.25s}
+.gateway-left .gate-item:hover{background:rgba(5,22,26,.95);border-right-color:var(--gold);padding-right:28px}
+.gateway-left .gate-item strong{color:var(--gold);display:block;margin-bottom:4px;font-size:19px}
+
+.gateway-right{flex:1;display:flex;flex-direction:column;align-items:center;gap:0;animation:fadeUp .8s ease .25s both}
+.flow-step{background:rgba(5,22,26,.9);border:1px solid rgba(199,176,140,.3);border-radius:14px;padding:16px 28px;text-align:center;min-width:280px;backdrop-filter:blur(8px);transition:.25s}
+.flow-step:hover{border-color:var(--gold);transform:scale(1.03)}
+.flow-step .fs-title-ar{font-size:24px;color:var(--gold);font-weight:700}
+.flow-step .fs-title-en{font-size:17px;color:var(--muted);margin-top:2px}
+.flow-arrow{font-size:34px;color:var(--gold);margin:4px 0;opacity:.7;animation:pulseArrow 1.5s ease-in-out infinite}
+@keyframes pulseArrow{0%,100%{opacity:.4;transform:translateY(0)}50%{opacity:1;transform:translateY(3px)}}
+
+   SLIDE 10 — VISION (3 Levels)
+   ═══════════════════════════════════════════ */
+.vision-wrap{display:flex;flex-direction:column;align-items:center;gap:32px;width:100%;max-width:900px}
+.vision-level{position:relative;width:100%;padding:28px 40px;border-radius:18px;text-align:center;backdrop-filter:blur(10px);animation:fadeUp .8s ease both;overflow:hidden}
+.vision-level:nth-child(1){animation-delay:.1s;background:linear-gradient(135deg,rgba(42,99,100,.3),rgba(5,22,26,.8));border:1px solid rgba(79,143,122,.35)}
+.vision-level:nth-child(3){animation-delay:.2s;background:linear-gradient(135deg,rgba(199,176,140,.15),rgba(5,22,26,.8));border:1px solid rgba(199,176,140,.3)}
+.vision-level:nth-child(5){animation-delay:.3s;background:linear-gradient(135deg,rgba(199,176,140,.25),rgba(5,22,26,.85));border:1px solid rgba(199,176,140,.4);box-shadow:0 0 60px rgba(199,176,140,.1)}
+
+.vision-level .vl-kicker{font-size:17px;color:var(--gold);font-weight:700;letter-spacing:.15em;margin-bottom:6px}
+.vision-level .vl-title-ar{font-size:34px;color:#fff;font-weight:700;margin-bottom:4px;text-shadow:0 4px 20px rgba(0,0,0,.4)}
+.vision-level .vl-title-en{font-size:20px;color:var(--muted);font-weight:500}
+.vision-level:nth-child(5) .vl-title-ar{font-size:42px;color:var(--gold-hi)}
+
+.vision-arrow{font-size:40px;color:var(--gold);opacity:.5;animation:fadeUp .6s ease both}
+.vision-arrow:nth-child(2){animation-delay:.15s}
+.vision-arrow:nth-child(4){animation-delay:.25s}
+
+
+/* ═══ TIMELINE AIRPLANE ANIMATION ═══ */
+.timeline-plane{position:absolute;right:50%;top:-20px;transform:translateX(50%);z-index:10;font-size:36px;animation:planeFly 5s ease-in-out infinite;filter:drop-shadow(0 4px 12px rgba(199,176,140,.5))}
+@keyframes planeFly{0%,100%{transform:translateX(50%) translateY(0) rotate(0deg)}25%{transform:translateX(50%) translateY(8px) rotate(-3deg)}75%{transform:translateX(50%) translateY(-8px) rotate(3deg)}}
+
+/* ═══ NEW CHALLENGES DESIGN (Honeycomb-inspired) ═══ */
+.challenges-hex{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;flex:1;align-content:center;padding:0 50px}
+.ch-hex{position:relative;background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:12px;padding:20px 14px;text-align:center;backdrop-filter:blur(10px);transition:.3s;overflow:hidden;animation:fadeUp .6s ease both}
+.ch-hex:nth-child(1){animation-delay:.05s}.ch-hex:nth-child(2){animation-delay:.1s}.ch-hex:nth-child(3){animation-delay:.15s}
+.ch-hex:nth-child(4){animation-delay:.2s}.ch-hex:nth-child(5){animation-delay:.25s}.ch-hex:nth-child(6){animation-delay:.3s}
+.ch-hex:nth-child(7){animation-delay:.35s}.ch-hex:nth-child(8){animation-delay:.4s}.ch-hex:nth-child(9){animation-delay:.45s}
+.ch-hex:hover{border-color:var(--gold);transform:translateY(-3px);box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.ch-hex::before{content:'';position:absolute;top:0;left:50%;transform:translateX(-50%);width:50%;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:.5}
+.ch-hex .chx-num{position:absolute;top:6px;right:10px;font-size:24px;font-weight:700;color:rgba(199,176,140,.1);line-height:1}
+.ch-hex .chx-icon{font-size:28px;margin-bottom:8px;display:block}
+.ch-hex .chx-title-ar{font-size:19px;color:var(--gold);font-weight:700;line-height:1.3}
+
+/* ═══ STRATEGY 4 COLUMNS ═══ */
+.pillars-row{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;flex:1;align-content:center;margin-top:16px}
+.pillar-col{background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:18px;padding:30px 22px;text-align:center;backdrop-filter:blur(10px);box-shadow:0 8px 30px rgba(0,0,0,.3);transition:.3s;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;animation:fadeUp .8s ease both}
+.pillar-col:nth-child(1){animation-delay:.1s}.pillar-col:nth-child(2){animation-delay:.15s}
+.pillar-col:nth-child(3){animation-delay:.2s}.pillar-col:nth-child(4){animation-delay:.25s}
+.pillar-col::before{content:'';position:absolute;top:0;right:0;left:0;height:3px;background:linear-gradient(90deg,var(--gold),transparent);opacity:.6}
+.pillar-col:hover{border-color:rgba(199,176,140,.4);transform:translateY(-5px)}
+.pillar-col .pc-icon{font-size:40px;margin-bottom:14px}
+.pillar-col .pc-title{font-size:20px;color:var(--gold);font-weight:700;margin-bottom:10px}
+.pillar-col .pc-desc{font-size:16px;color:#c8d5d3;line-height:1.7;margin-bottom:14px;flex:1}
+.pillar-col .pc-status{display:inline-flex;align-items:center;gap:8px;font-size:14px;padding:7px 18px;border-radius:999px;background:rgba(42,99,100,.3);border:1px solid rgba(79,143,122,.4);color:#a3d5c5}
+.pillar-col .pc-status.active{background:rgba(79,143,122,.2);border-color:rgba(79,143,122,.5);color:#8fd4b8}
+
+/* ═══ 8 PILLARS REDESIGN (Spread layout) ═══ */
+.pillars8-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;flex:1;align-content:center;padding:0 20px}
+.p8-card{background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:28px 20px;text-align:center;backdrop-filter:blur(8px);transition:.25s;position:relative;overflow:hidden;animation:fadeUp .6s ease both}
+.p8-card:nth-child(1){animation-delay:.05s}.p8-card:nth-child(2){animation-delay:.1s}.p8-card:nth-child(3){animation-delay:.15s}.p8-card:nth-child(4){animation-delay:.2s}
+.p8-card:nth-child(5){animation-delay:.25s}.p8-card:nth-child(6){animation-delay:.3s}.p8-card:nth-child(7){animation-delay:.35s}.p8-card:nth-child(8){animation-delay:.4s}
+.p8-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 12px 35px rgba(0,0,0,.4)}
+.p8-card::before{content:'';position:absolute;top:0;right:0;left:0;height:2px;background:linear-gradient(90deg,var(--gold),transparent);opacity:.4}
+.p8-card .p8-num{position:absolute;top:8px;left:12px;font-size:11px;color:var(--gold);font-weight:700;letter-spacing:.1em}
+.p8-card .p8-icon{font-size:34px;margin-bottom:10px}
+.p8-card .p8-title-ar{font-size:19px;color:#fff;font-weight:700;line-height:1.4;margin-bottom:4px}
+.p8-card .p8-title-en{font-size:14px;color:var(--muted)}
+
+/* ═══ DIPLOMA STATS REDESIGN (Larger) ═══ */
+.diploma-stats-new{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin-bottom:26px;max-width:1080px;width:100%;animation:fadeUp .8s ease .2s both}
+.stat-card-lg{background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.25);border-radius:18px;padding:38px 26px;text-align:center;backdrop-filter:blur(8px);transition:.3s;position:relative;overflow:hidden}
+.diploma-stats-new .stat-card-lg{min-height:210px;padding:42px 30px;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.stat-card-lg:hover{border-color:var(--gold);transform:translateY(-5px);box-shadow:0 15px 45px rgba(0,0,0,.4)}
+.stat-card-lg .sc-val{font-size:52px;font-weight:700;color:var(--gold);margin-bottom:8px;text-shadow:0 0 25px rgba(199,176,140,.3)}
+.stat-card-lg .sc-label-ar{font-size:22px;color:#fff;font-weight:600;margin-bottom:6px}
+.stat-card-lg .sc-label-en{font-size:16px;color:var(--muted)}
+
+.diploma-extra-new{display:flex;gap:20px;justify-content:center;animation:fadeUp .8s ease .35s both}
+.diploma-extra-new .extra-lg{background:rgba(42,99,100,.25);border:1px solid rgba(79,143,122,.4);border-radius:999px;padding:14px 28px;font-size:18px;color:#a3d5c5}
+
+/* Final presentation hardening */
+.cover .slide-content{padding:170px 110px 118px!important;justify-content:center!important;align-items:center!important}
+.cover-logo-wrap{top:26px!important;height:116px;align-items:center;margin:0!important}
+.cover-logo-wrap img{height:108px!important;max-width:620px}
+.cover-title-wrap{width:min(1180px,100%);max-width:1180px;margin:0 auto;padding:0 24px}
+.cover-title-wrap h1{font-size:clamp(42px,3.7vw,58px)!important;line-height:1.42!important;margin-bottom:14px!important}
+.cover-title-wrap .event-tag{font-size:24px!important;margin-bottom:4px!important}
+.cover-title-wrap .subtitle{font-size:22px!important;line-height:1.6!important;max-width:960px!important;margin:0 auto 18px!important}
+.cover-title-wrap .meta-line{gap:12px!important;margin-bottom:0!important}
+.cover-title-wrap .meta-line span{font-size:16px!important;padding:8px 18px!important;backdrop-filter:none!important}
+.brand-mini img,.cover-logo-wrap img,.opening-logo-wrap img{background:transparent}
+.slide-number{font-variant-numeric:tabular-nums}
+video{background:#02080a}
+.video-ctrl-overlay{background:rgba(2,10,13,.56)}
+.video-hint{direction:rtl}
+.speaker-slide{gap:16px!important}
+.speaker-slide .speaker-photo{width:380px!important;height:380px!important;border-width:3px;box-shadow:0 24px 70px rgba(0,0,0,.52),0 0 55px rgba(199,176,140,.22)}
+.speaker-slide .speaker-photo img{object-position:center 18%;image-rendering:auto}
+.speaker-slide .gold-ornament-center{margin:6px auto!important}
+.speaker-slide .speaker-name{font-size:34px!important;line-height:1.3}
+.speaker-slide .speaker-title{line-height:1.35}
+.diploma-slide .slide-content{align-items:center}
+.diploma-slide .diploma-header,.diploma-slide .diploma-intro,.diploma-slide .diploma-stats-new,.diploma-slide .diploma-extra-new{margin-left:auto;margin-right:auto}
+.diploma-slide .diploma-header{width:100%;text-align:center}
+.diploma-slide .diploma-intro{width:100%}
+.slide-bg.participant-campus-bg{
+  background-image:url('images/0W0A9119.jpeg')!important;
+  background-size:cover!important;
+  background-position:center 52%!important;
+  filter:saturate(.72) contrast(1.02) brightness(.42)!important;
+  opacity:.92!important;
+  animation:participantCampusMove 28s cubic-bezier(.45,0,.55,1) infinite alternate!important;
+}
+.slide.active .slide-bg.participant-campus-bg{animation-play-state:running!important}
+@keyframes participantCampusMove{
+  from{transform:scale(1.035) translate3d(0,0,0)}
+  to{transform:scale(1.075) translate3d(-.7%,-.35%,0)}
+}
+.slide:has(.grad-card-hero) .slide-content{padding:92px 120px 118px;justify-content:center;align-items:center}
+.grad-card-hero{
+  display:grid!important;
+  grid-template-columns:480px minmax(480px,620px);
+  grid-template-rows:auto auto auto;
+  column-gap:78px;
+  row-gap:18px!important;
+  align-items:center!important;
+  justify-content:center;
+  width:100%;
+  max-width:1220px;
+  text-align:right!important;
+}
+.grad-num-badge{display:none!important}
+.grad-photo-wrap{
+  grid-column:1;
+  grid-row:1 / 4;
+  width:460px!important;
+  height:460px!important;
+  margin:0!important;
+  justify-self:center;
+}
+.grad-divider{grid-column:2;grid-row:1;width:120px!important;margin:0!important;align-self:end}
+.grad-name-hero{grid-column:2;grid-row:2;font-size:52px!important;line-height:1.3!important;text-align:right;margin:0!important;max-width:620px}
+.grad-honorific{display:block;font-size:28px;line-height:1;color:var(--gold);font-weight:500;margin-bottom:16px}
+.grad-person-name{display:block;color:#fff}
+.grad-country{grid-column:2;grid-row:3;margin:0!important;justify-self:start;padding:14px 28px!important}
+.grad-country-name{font-size:22px!important}
+.grad-flag{width:56px!important;height:38px!important;object-fit:cover;border-radius:5px;box-shadow:0 4px 14px rgba(0,0,0,.38);flex:0 0 auto}
+
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+  .slide-bg.kenburns{animation:none!important;transform:scale(1.02)!important}
+  .chapter-divider .chapter-bg,.chapter-stage::before,.chapter-stage::after{animation:none!important}
+  #particles{display:none}
+}
+
+@media(max-width:1200px) and (orientation:landscape){
+  .cover .slide-content{padding:145px 88px 105px!important}
+  .cover-logo-wrap{top:18px!important;height:102px}
+  .cover-logo-wrap img{height:92px!important}
+  .cover-title-wrap h1{font-size:46px!important}
+  .cover-title-wrap .subtitle{font-size:20px!important}
+}
+
+
+</style>
+</head>
+<body>
+<div id="app">
+<canvas id="particles"></canvas>
+<div aria-live="polite" id="deck">
+
+<!-- ═══════════════════════════════════════ -->
+<!-- Logo (small, top-left, all slides)      -->
+<!-- ═══════════════════════════════════════ -->
+<div aria-label="جامعة نايف العربية للعلوم الأمنية" class="brand-mini">
+  <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png">
+</div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 01  Cover / الشاشة الترحيبية            -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide cover active" data-title="الشاشة الترحيبية">
+  <div class="slide-bg cover-main-bg" style="background-image:url('images/0W0A9119.jpeg')"></div>
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 40%,rgba(14,46,48,.6) 0%,rgba(7,23,27,.75) 48%,rgba(3,9,12,.85) 100%)"></div>
+  <div class="cover-deco"></div>
+  <div class="cover-aura a1"></div>
+  <div class="cover-aura a2"></div>
+  <div class="cover-bottom-glow"></div>
+  <div class="slide-content">
+    <div class="cover-logo-wrap" style="margin-bottom:50px">
+      <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png" style="height:220px">
+    </div>
+    <div class="cover-title-wrap">
+      <div class="event-tag">برعاية معالي رئيس الجامعة</div>
+      <div class="gold-ornament-center" style="margin:14px auto"></div>
+      <h1 style="line-height:1.6">حفل اختتام البرنامج التدريبي<br/>«النسخة الأولى» من الدبلوم التنفيذي المعتمد<br/>لأمن الطيران</h1>
+      <p class="subtitle">نحو آفاق جديدة في تأمين الملاحة الجوية وحماية المطارات</p>
+      <div class="meta-line">
+        <span>📅 1447 هـ / 2026 م</span>
+        <span>📍 الرياض — المملكة العربية السعودية</span>
+        <span>🎓 دفعة التميز والريادة</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 02  Opening / افتتاح الحفل              -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="افتتاح الحفل">
+  <div class="slide-bg kenburns" style="background-image:url('images/0W0A9080.jpeg')"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;text-align:center">
+    <div style="max-width:900px">
+      <div class="opening-logo-wrap">
+        <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png">
+      </div>
+      <div class="kicker" style="font-size:22px;margin-bottom:16px">افتتاح الحفل</div>
+      <div class="gold-ornament-center"></div>
+      <h1 class="h1" style="font-size:44px;margin-bottom:20px">حفل اختتام البرنامج التدريبي<br/>للدفعة الأولى من الدبلوم التنفيذي المعتمد<br/>لأمن الطيران</h1>
+      <p class="lead" style="font-size:22px;margin-bottom:24px">برعاية من معالي رئيس جامعة نايف العربية للعلوم الأمنية</p>
+      <div class="glass panel" style="max-width:600px;margin:0 auto;padding:24px 30px">
+        <p class="body" style="font-size:19px;line-height:2;color:#f2eee6">يسرّنا أن نرحب بكم في هذا المحفل العلمي المتميز</p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">02</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 03  Quran / القرآن الكريم               -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="القرآن الكريم">
+  <div class="slide-bg kenburns" style="background-image:url('images/0W0A9119.jpeg')"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center">
+    <div class="kicker" style="font-size:18px;margin-bottom:4px;text-align:center">افتتاح الحفل بالقرآن الكريم</div>
+      <div class="video-stage-large">
+        <video id="quranVideo" poster="images/0W0A9119.jpeg" playsinline preload="metadata">
+          <source src="videos/quran.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو
+        </video>
+        <div class="video-ctrl-overlay" id="quranOverlay">
+          <button class="play-btn" id="quranPlay">▶</button>
+        </div>
+        <div class="video-hint">اضغط على الفيديو أو زر التحكم للتشغيل والإيقاف</div>
+        <div class="video-bottom-bar">
+          <span>سورة طه: الآية 114 — وَقُلْ رَبِّ زِدْنِي عِلْمًا</span>
+          <div class="vbtns">
+            <button class="vbtn" id="quranPause" title="إيقاف مؤقت">⏸</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="slide-number">03</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 04  فاصل                                -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="فاصل">
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.9) 0%,rgba(7,23,27,.95) 50%,rgba(3,9,12,.98) 100%)"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;text-align:center">
+    <div style="animation:fadeUp 1s ease both">
+      <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png" style="height:280px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 60px rgba(199,176,140,.25));animation:logoGlow 4s ease-in-out infinite">
+    </div>
+  </div>
+  <div class="slide-number">04</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 05  University Intro Video              -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="الفيديو التعريفي">
+  <div class="slide-bg kenburns" style="background-image:url('images/0W0A9166.jpg')"></div>
+  <div class="slide-content" style="padding:20px 40px 80px;justify-content:center;align-items:center">
+    <div class="video-stage-xlarge">
+      <video id="introVideo" poster="images/0W0A9166.jpg" playsinline preload="metadata">
+        <source src="videos/intro.mp4" type="video/mp4">
+        متصفحك لا يدعم تشغيل الفيديو
+      </video>
+      <div class="video-ctrl-overlay" id="introOverlay">
+        <button class="play-btn" id="introPlay">▶</button>
+      </div>
+      <div class="video-hint">اضغط على الفيديو أو زر التحكم للتشغيل والإيقاف</div>
+      <div class="video-bottom-bar">
+        <span>عرض تعريفي بجامعة نايف العربية للعلوم الأمنية</span>
+        <div class="vbtns">
+          <button class="vbtn" id="introPause" title="إيقاف مؤقت">⏸</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">05</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- فاصل                                  -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="فاصل">
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.9) 0%,rgba(7,23,27,.95) 50%,rgba(3,9,12,.98) 100%)"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;text-align:center">
+    <div style="animation:fadeUp 1s ease both">
+      <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png" style="height:280px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 60px rgba(199,176,140,.25));animation:logoGlow 4s ease-in-out infinite">
+    </div>
+  </div>
+  <div class="slide-number">06</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 05  President Speech                    -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="كلمة معالي رئيس الجامعة">
+  <div class="slide-bg kenburns" style="background-image:url('images/0W0A0671.jpeg')"></div>
+  <div class="slide-content">
+    <div class="speaker-slide">
+      <div class="kicker" style="font-size:26px">كلمة معالي رئيس الجامعة</div>
+      <div class="speaker-photo" style="width:220px;height:220px">
+        <img alt="د. عبدالمجيد بن عبدالله البنيان" src="images/president_enhanced.jpg" style="width:100%;height:100%;object-fit:cover">
+      </div>
+      <div class="gold-ornament-center" style="margin:14px auto"></div>
+      <p class="speaker-name" style="font-size:32px">د. عبدالمجيد بن عبدالله البنيان</p>
+    </div>
+  </div>
+  <div class="slide-number">07</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- فاصل                                  -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="فاصل">
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.9) 0%,rgba(7,23,27,.95) 50%,rgba(3,9,12,.98) 100%)"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;text-align:center">
+    <div style="animation:fadeUp 1s ease both">
+      <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png" style="height:280px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 60px rgba(199,176,140,.25));animation:logoGlow 4s ease-in-out infinite">
+    </div>
+  </div>
+  <div class="slide-number">08</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 06  Deputy Speech (Al-Fawzan)           -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="كلمة نائب رئيس الهيئة">
+  <div class="slide-bg kenburns" style="background-image:url('images/DSC_1234.jpg')"></div>
+  <div class="slide-content">
+    <div class="speaker-slide">
+      <div class="kicker" style="font-size:24px">كلمة نائب الرئيس التنفيذي لأمن الطيران<br/>في الهيئة العامة للطيران المدني</div>
+      <div class="speaker-photo" style="width:220px;height:220px">
+        <img alt="أ.محمد سعد الفوزان" src="images/alfawzan_enhanced.jpg" style="width:100%;height:100%;object-fit:cover">
+      </div>
+      <div class="gold-ornament-center" style="margin:14px auto"></div>
+      <p class="speaker-name" style="font-size:32px">أ.محمد سعد الفوزان</p>
+    </div>
+  </div>
+  <div class="slide-number">09</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- فاصل                                  -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="فاصل">
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.9) 0%,rgba(7,23,27,.95) 50%,rgba(3,9,12,.98) 100%)"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;text-align:center">
+    <div style="animation:fadeUp 1s ease both">
+      <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png" style="height:280px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 60px rgba(199,176,140,.25));animation:logoGlow 4s ease-in-out infinite">
+    </div>
+  </div>
+  <div class="slide-number">10</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 07  Diploma Presentation (11 slides)    -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="العرض التقديمي للدبلوم التنفيذي المعتمد لأمن الطيران">
+  <div class="slide-bg kenburns" style="background-image:url('images/1.jpg')"></div>
+  <div class="slide-content">
+    <div class="speaker-slide">
+      <div class="kicker" style="font-size:22px">عرض تقديم عن بناء القدرات في مجال أمن الطيران يقدمه</div>
+      <div class="speaker-photo" style="width:220px;height:220px">
+        <img alt="د.عبدالرزاق بن عبدالعزيز المرجان" src="images/murjan_enhanced.jpg" style="width:100%;height:100%;object-fit:cover">
+      </div>
+      <div class="gold-ornament-center" style="margin:14px auto"></div>
+      <p class="speaker-name" style="font-size:32px">د.عبدالرزاق بن عبدالعزيز المرجان</p>
+      <p class="speaker-title" style="font-size:22px">وكيل الجامعة للتدريب</p>
+    </div>
+  </div>
+  <div class="slide-number">11</div>
+</section>
+
+<!-- AVIATION -->
+<section class="slide cover" data-title="بناء القدرات في مجال أمن الطيران">
+  <div class="slide-bg kenburns" style="background-image:url('images/0W0A0671.jpeg')"></div>
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 40%,rgba(14,46,48,.85) 0%,rgba(7,23,27,.92) 48%,rgba(3,9,12,.97) 100%)"></div>
+  <div class="cover-deco"></div>
+  <div class="cover-aura a1"></div>
+  <div class="cover-aura a2"></div>
+  <div class="slide-content" style="padding-top:100px">
+    <div class="cover-title-wrap">
+      <div style="margin-bottom:30px;animation:logoReveal 1.2s cubic-bezier(.2,.8,.2,1) both">
+        <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png" style="height:200px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 60px rgba(199,176,140,.25));animation:logoGlow 4s ease-in-out infinite">
+      </div>
+      <h1 style="font-size:82px;margin-bottom:30px">بناء القدرات في مجال أمن الطيران</h1>
+      <div class="gold-ornament-center" style="margin:20px auto;width:160px"></div>
+      
+    </div>
+  </div>
+  <div class="slide-number">12</div>
+</section>
+
+<section class="slide timeline-slide" data-title="المسيرة">
+  <div class="slide-bg kenburns" style="background-image:url('images/0W0A9119.jpeg')"></div>
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.88) 0%,rgba(7,23,27,.93) 50%,rgba(3,9,12,.98) 100%)"></div>
+    <div class="brand-mini"><img src="images/nauss_logo.png" alt="شعار جامعة نايف العربية للعلوم الأمنية"></div>
+<div class="slide-content">
+    <div class="timeline-header" style="margin-top:30px">
+      <h2>جهود جامعة نايف العربية للعلوم الأمنية في مجال أمن الطيران</h2>
+      <p class="intro-text">على مدى أكثر من 15 سنة، عملت الجامعة على بناء منظومة متخصصة في أمن الطيران، بما ينسجم مع أفضل المعايير والممارسات الدولية.</p>
+    </div>
+    <div class="timeline-wrap">
+      <div class="timeline-line"></div>
+      <div class="timeline-plane">✈️</div>
+      <div class="timeline-item">
+        <div class="timeline-text">ندوة علمية حول <strong>المعايير الدولية لأمن المطارات</strong> في الدول العربية — بيروت</div>
+        <div class="timeline-year">2010</div>
+      </div>
+      <div class="timeline-item" style="flex-direction:row-reverse">
+        <div class="timeline-text">برنامج تدريبي حول <strong>التعامل مع حوادث اختطاف الطائرات وعمليات تحرير الرهائن</strong> — فرنسا</div>
+        <div class="timeline-year">2014</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-text" style="display:flex;flex-direction:column;gap:10px;font-size:20px">
+          <div>• برنامج أمن الطائرات والمطارات بالتعاون مع <strong>المنظمة العربية للطيران المدني</strong> — مقر الجامعة</div>
+          <div>• توقيع مذكرة تفاهم مع <strong>الهيئة العامة للطيران المدني (GACA)</strong></div>
+          <div>• توقيع مذكرة تفاهم مع <strong>المنظمة العربية لشركات الطيران (AACO)</strong></div>
+        </div>
+        <div class="timeline-year">2017</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">13</div>
+</section>
+
+<section class="slide challenges-slide" data-title="تحديات أمنية متجددة">
+  <div class="slide-bg kenburns" style="background-image:url('images/DSC_1234.jpg')"></div>
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.88) 0%,rgba(7,23,27,.93) 50%,rgba(3,9,12,.98) 100%)"></div>
+    <div class="brand-mini"><img src="images/nauss_logo.png" alt="شعار جامعة نايف العربية للعلوم الأمنية"></div>
+<div class="slide-content">
+    <div class="challenges-header" style="margin-bottom:14px">
+
+      <h2 style="font-size:38px;margin-bottom:4px">تحديات أمنية متجددة</h2>
+      <p class="sub" style="font-size:18px;line-height:1.6">في ظل النمو المتسارع لقطاع الطيران، أصبحت التحديات الأمنية أكثر تعقيدًا وتشابكًا</p>
+    </div>
+    <div class="challenges-hex">
+      <div class="ch-hex"><div class="chx-num">1</div><div class="chx-icon">⚡</div><div class="chx-title-ar">التهديدات الأمنية المتطورة</div></div>
+      <div class="ch-hex"><div class="chx-num">2</div><div class="chx-icon">👤</div><div class="chx-title-ar">التهديدات الداخلية</div></div>
+      <div class="ch-hex"><div class="chx-num">3</div><div class="chx-icon">💻</div><div class="chx-title-ar">التهديدات السيبرانية</div></div>
+      <div class="ch-hex"><div class="chx-num">4</div><div class="chx-icon">🛸</div><div class="chx-title-ar">الطائرات المسيّرة</div></div>
+      <div class="ch-hex"><div class="chx-num">5</div><div class="chx-icon">🏗️</div><div class="chx-title-ar">تهديدات البنية التحتية</div></div>
+      <div class="ch-hex"><div class="chx-num">6</div><div class="chx-icon">📦</div><div class="chx-title-ar">تهديدات الشحن والإمداد</div></div>
+      <div class="ch-hex"><div class="chx-num">7</div><div class="chx-icon">🛂</div><div class="chx-title-ar">تفتيش المسافرين</div></div>
+      <div class="ch-hex"><div class="chx-num">8</div><div class="chx-icon">🚨</div><div class="chx-title-ar">الأزمات</div></div>
+      <div class="ch-hex"><div class="chx-num">9</div><div class="chx-icon">📋</div><div class="chx-title-ar">الامتثال الدولي</div></div>
+    </div>
+  </div>
+  <div class="slide-number">14</div>
+</section>
+
+<section class="slide directions-slide" data-title="موجهات الاستراتيجية">
+  <div class="slide-bg kenburns" style="background-image:url('images/1.jpg')"></div>
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.88) 0%,rgba(7,23,27,.93) 50%,rgba(3,9,12,.98) 100%)"></div>
+    <div class="brand-mini"><img src="images/nauss_logo.png" alt="شعار جامعة نايف العربية للعلوم الأمنية"></div>
+<div class="slide-content">
+    <div class="directions-header">
+
+      <h2>موجّهات استراتيجية الجامعة 2025–2029</h2>
+    </div>
+    <div class="directions-wrap">
+      <div class="direction-card">
+        <div class="dir-num">1</div>
+        <div class="dir-title"><span class="dot"></span>الموجّه الأول: الوقاية</div>
+        <div class="dir-body" style="grid-template-columns:1fr">
+          <div class="dir-section">
+            <p>التركيز على الوقاية من الجريمة بدلاً من الاستجابة لها بعد وقوعها يعد أحد أهم التوجهات الحديثة في مجال العلوم الأمنية. منع الجريمة قبل وقوعها يمثل تحولاً في استراتيجيات الأمن للمساهمة في رفع مستوى جودة الحياة وتحقيق أهداف التنمية المستدامة للأمم المتحدة، من خلال دعم اتخاذ القرار الأمني المبني على البيانات وتوظيف التطورات التقنية لهذا الغرض.</p>
+          </div>
+        </div>
+      </div>
+      <div class="direction-card">
+        <div class="dir-num">2</div>
+        <div class="dir-title"><span class="dot"></span>الموجّه الثاني: التقنيات الناشئة والذكاء الاصطناعي</div>
+        <div class="dir-body" style="grid-template-columns:1fr">
+          <div class="dir-section">
+            <p>سيكون للتطورات التقنية تأثير عظيم على شكل الأمن في المستقبل حيث توفر فرص كبيرة للحد من الجريمة وفي ذات الوقت ستوفر تحديات في حال استغلالها الاستغلال السيء من قبل العصابات الإجرامية. سنركز على التقنيات الناشئة والذكاء الاصطناعي في كافة أعمالنا من خلال برامجنا الأكاديمية والتدريبية والدراسات والبحوث، وسننشيء مركز متخصص لهذا الغرض.</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="slide-number">15</div>
+</section>
+
+<section class="slide map-slide" data-title="استراتيجية الجامعة">
+  <div class="slide-bg kenburns" style="background-image:url('images/0W0A9080.jpeg')"></div>
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.75) 0%,rgba(7,23,27,.88) 50%,rgba(3,9,12,.96) 100%)"></div>
+    <div class="brand-mini"><img src="images/nauss_logo.png" alt="شعار جامعة نايف العربية للعلوم الأمنية"></div>
+<div class="slide-content" style="justify-content:flex-start;align-items:center;text-align:center;padding:34px 48px 62px">
+    <div style="animation:fadeUp 1s ease both;width:100%;max-width:1480px">
+      <div class="gold-ornament-center" style="margin-bottom:10px;width:180px"></div>
+      <h2 style="font-size:50px;color:#fff;font-weight:700;margin-bottom:8px;text-shadow:0 4px 20px rgba(0,0,0,.5)">استراتيجية الجامعة 2025 – 2029</h2>
+      <img src="images/university_strategy_vision.png" alt="رؤية الجامعة ومحاور التعليم والبحث العلمي والتدريب والعلاقات الخارجية" style="max-width:1450px;max-height:660px;width:100%;height:auto;margin-top:0;filter:drop-shadow(0 14px 34px rgba(0,0,0,.55));animation:fadeUp 1s ease .3s both;border-radius:12px;background:transparent;object-fit:contain">
+      <div class="gold-ornament-center" style="margin-top:8px;width:180px"></div>
+    </div>
+  </div>
+  <div class="slide-number">16</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- فاصل                                  -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="فاصل">
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.9) 0%,rgba(7,23,27,.95) 50%,rgba(3,9,12,.98) 100%)"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;text-align:center">
+    <div style="animation:fadeUp 1s ease both">
+      <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png" style="height:280px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 60px rgba(199,176,140,.25));animation:logoGlow 4s ease-in-out infinite">
+    </div>
+  </div>
+  <div class="slide-number">17</div>
+</section>
+
+<section class="slide eco-slide" data-title="منظومة متكاملة">
+  <div class="slide-bg kenburns" style="background-image:url('images/images1_enhanced.jpg')"></div>
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.88) 0%,rgba(7,23,27,.93) 50%,rgba(3,9,12,.98) 100%)"></div>
+    <div class="brand-mini"><img src="images/nauss_logo.png" alt="شعار جامعة نايف العربية للعلوم الأمنية"></div>
+<div class="slide-content">
+    <div class="eco-header">
+
+      <h2>منظومة متكاملة لبناء القدرات</h2>
+      <p class="sub">انطلاقًا من استراتيجيتها، وضعت الجامعة برنامج أمن الطيران ضمن أولوياتها، وتعمل بالشراكة مع الهيئة العامة للطيران المدني في دولة المقر على بناء منظومة متكاملة تقوم على ثلاثة محاور مترابطة</p>
+    </div>
+    <div class="eco-cards">
+      <div class="eco-card">
+        <div class="eco-num">1</div>
+        <div class="eco-icon">📚</div>
+        <div class="eco-title-ar">البرامج الأكاديمية</div>
+        <div class="eco-title-en">Academic Programmes</div>
+        <div class="eco-desc">تقديم برامج أكاديمية في مجال أمن الطيران</div>
+      </div>
+      <div class="eco-card">
+        <div class="eco-num">2</div>
+        <div class="eco-icon">🎯</div>
+        <div class="eco-title-ar">التدريب المتخصص</div>
+        <div class="eco-title-en">Specialised Training</div>
+        <div class="eco-desc">تقديم برامج تدريبية متخصصة في مجال أمن الطيران</div>
+      </div>
+      <div class="eco-card">
+        <div class="eco-num">3</div>
+        <div class="eco-icon">🔬</div>
+        <div class="eco-title-ar">البحث والابتكار</div>
+        <div class="eco-title-en">Research & Innovation</div>
+        <div class="eco-desc">تقديم أوراق سياسات وأبحاث تطبيقية واستشرافية في مجال أمن الطيران</div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">18</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- فاصل                                  -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="فاصل">
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.9) 0%,rgba(7,23,27,.95) 50%,rgba(3,9,12,.98) 100%)"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;text-align:center">
+    <div style="animation:fadeUp 1s ease both">
+      <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png" style="height:280px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 60px rgba(199,176,140,.25));animation:logoGlow 4s ease-in-out infinite">
+    </div>
+  </div>
+  <div class="slide-number">19</div>
+</section>
+
+<section class="slide pillars8-slide" data-title="المحاور الرئيسية لبناء القدرات في مجال أمن الطيران">
+  <div class="slide-bg kenburns" style="background-image:url('images/images2_enhanced.jpg')"></div>
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.88) 0%,rgba(7,23,27,.93) 50%,rgba(3,9,12,.98) 100%)"></div>
+    <div class="brand-mini"><img src="images/nauss_logo.png" alt="شعار جامعة نايف العربية للعلوم الأمنية"></div>
+<div class="slide-content">
+    <div class="pillars8-header">
+      <h2>المحاور الرئيسية لبناء القدرات في مجال أمن الطيران</h2>
+    </div>
+    <div class="pillars8-grid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding:10px 40px;width:100%;max-width:1400px;margin:0 auto">
+      <div class="p8-card" style="background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:28px 20px;text-align:center;backdrop-filter:blur(8px);transition:.25s;position:relative;overflow:hidden"><div style="font-size:13px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-bottom:8px">PILLAR 1</div><div style="font-size:34px;margin-bottom:12px">🎯</div><div style="font-size:19px;color:#fff;font-weight:700;line-height:1.4;margin-bottom:6px">التخصص في أمن الطيران</div><div style="font-size:14px;color:var(--muted)">Aviation Security Specialization</div></div>
+      <div class="p8-card" style="background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:28px 20px;text-align:center;backdrop-filter:blur(8px);transition:.25s;position:relative;overflow:hidden"><div style="font-size:13px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-bottom:8px">PILLAR 2</div><div style="font-size:34px;margin-bottom:12px">👔</div><div style="font-size:19px;color:#fff;font-weight:700;line-height:1.4;margin-bottom:6px">تنمية القيادات والتطوير التنفيذي</div><div style="font-size:14px;color:var(--muted)">Leadership & Executive Development</div></div>
+      <div class="p8-card" style="background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:28px 20px;text-align:center;backdrop-filter:blur(8px);transition:.25s;position:relative;overflow:hidden"><div style="font-size:13px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-bottom:8px">PILLAR 3</div><div style="font-size:34px;margin-bottom:12px">🚨</div><div style="font-size:19px;color:#fff;font-weight:700;line-height:1.4;margin-bottom:6px">إدارة الأزمات والطوارئ</div><div style="font-size:14px;color:var(--muted)">Crisis & Emergency Management</div></div>
+      <div class="p8-card" style="background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:28px 20px;text-align:center;backdrop-filter:blur(8px);transition:.25s;position:relative;overflow:hidden"><div style="font-size:13px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-bottom:8px">PILLAR 4</div><div style="font-size:34px;margin-bottom:12px">🔒</div><div style="font-size:19px;color:#fff;font-weight:700;line-height:1.4;margin-bottom:6px">الأمن السيبراني والبنية التحتية</div><div style="font-size:14px;color:var(--muted)">Cybersecurity & Infrastructure</div></div>
+      <div class="p8-card" style="background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:28px 20px;text-align:center;backdrop-filter:blur(8px);transition:.25s;position:relative;overflow:hidden"><div style="font-size:13px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-bottom:8px">PILLAR 5</div><div style="font-size:34px;margin-bottom:12px">🔍</div><div style="font-size:19px;color:#fff;font-weight:700;line-height:1.4;margin-bottom:6px">الاستخبارات والتحليل الأمني</div><div style="font-size:14px;color:var(--muted)">Intelligence & Security Analysis</div></div>
+      <div class="p8-card" style="background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:28px 20px;text-align:center;backdrop-filter:blur(8px);transition:.25s;position:relative;overflow:hidden"><div style="font-size:13px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-bottom:8px">PILLAR 6</div><div style="font-size:34px;margin-bottom:12px">🛂</div><div style="font-size:19px;color:#fff;font-weight:700;line-height:1.4;margin-bottom:6px">أمن الحدود والنقل</div><div style="font-size:14px;color:var(--muted)">Border & Transport Security</div></div>
+      <div class="p8-card" style="background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:28px 20px;text-align:center;backdrop-filter:blur(8px);transition:.25s;position:relative;overflow:hidden"><div style="font-size:13px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-bottom:8px">PILLAR 7</div><div style="font-size:34px;margin-bottom:12px">🔬</div><div style="font-size:19px;color:#fff;font-weight:700;line-height:1.4;margin-bottom:6px">التحقيقات والأدلة الجنائية</div><div style="font-size:14px;color:var(--muted)">Investigation & Forensics</div></div>
+      <div class="p8-card" style="background:rgba(5,22,26,.85);border:1px solid rgba(199,176,140,.2);border-radius:16px;padding:28px 20px;text-align:center;backdrop-filter:blur(8px);transition:.25s;position:relative;overflow:hidden"><div style="font-size:13px;color:var(--gold);font-weight:700;letter-spacing:.1em;margin-bottom:8px">PILLAR 8</div><div style="font-size:34px;margin-bottom:12px">📈</div><div style="font-size:19px;color:#fff;font-weight:700;line-height:1.4;margin-bottom:6px">التطوير المهني المستمر</div><div style="font-size:14px;color:var(--muted)">Continuing Professional Development</div></div>
+    </div>
+  </div>
+  <div class="slide-number">20</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- فاصل                                  -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="فاصل">
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.9) 0%,rgba(7,23,27,.95) 50%,rgba(3,9,12,.98) 100%)"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;text-align:center">
+    <div style="animation:fadeUp 1s ease both">
+      <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png" style="height:280px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 60px rgba(199,176,140,.25));animation:logoGlow 4s ease-in-out infinite">
+    </div>
+  </div>
+  <div class="slide-number">21</div>
+</section>
+
+<section class="slide diploma-slide" data-title="الدبلوم التنفيذي في أمن الطيران">
+  <div class="slide-bg kenburns" style="background-image:url('images/4.jpg')"></div>
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 50%,rgba(14,46,48,.88) 0%,rgba(7,23,27,.93) 50%,rgba(3,9,12,.98) 100%)"></div>
+    <div class="brand-mini"><img src="images/nauss_logo.png" alt="شعار جامعة نايف العربية للعلوم الأمنية"></div>
+<div class="slide-content">
+    <div class="diploma-header">
+      <h2>البرنامج التدريبي<br>الدبلوم التنفيذي في أمن الطيران</h2>
+
+    </div>
+    <div class="diploma-intro">
+      البرنامج التدريبي الذي يجسد هذه الرؤية ويحولها إلى واقع عملي — يستعرض الفيلم المصاحب هيكله، وآلية تنفيذه، ومخرجاته.
+    </div>
+    <div class="diploma-stats-new" style="border:none;background:none;box-shadow:none">
+      <div class="stat-card-lg">
+        <div class="sc-val">12</div>
+        <div class="sc-label-ar">أسبوعاً</div>
+        <div class="sc-label-en">Accelerated Programme</div>
+      </div>
+      <div class="stat-card-lg">
+        <div class="sc-val">11</div>
+        <div class="sc-label-ar">مشارك</div>
+        <div class="sc-label-en">اجتازوا البرنامج</div>
+      </div>
+      <div class="stat-card-lg">
+        <div class="sc-val">العربية</div>
+        <div class="sc-label-ar">لغة التنفيذ</div>
+        <div class="sc-label-en">Delivered in Arabic</div>
+      </div>
+    </div>
+    <div class="diploma-extra-new">
+      <span class="extra-lg">🌍 7 دول قامت بالترشيح</span>
+    </div>
+  </div>
+  <div class="slide-number">22</div>
+</section>
+
+<section class="slide closing-slide" data-title="خاتمة">
+  <div class="slide-bg kenburns" style="background-image:url('images/0W0A0671.jpeg')"></div>
+  <div class="slide-bg" style="background:radial-gradient(ellipse at 50% 40%,rgba(14,46,48,.88) 0%,rgba(7,23,27,.94) 48%,rgba(3,9,12,.98) 100%)"></div>
+  <div class="cover-deco"></div>
+  <div class="cover-aura a1"></div>
+  <div class="cover-aura a2"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;text-align:center">
+    <div class="closing-wrap" style="animation:fadeUp 1.2s cubic-bezier(.2,.8,.2,1) both">
+      <div style="margin-bottom:40px;animation:logoReveal 1.2s cubic-bezier(.2,.8,.2,1) both">
+        <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png" style="height:220px;width:auto;object-fit:contain;filter:drop-shadow(0 12px 30px rgba(0,0,0,.5)) drop-shadow(0 0 60px rgba(199,176,140,.25));animation:logoGlow 4s ease-in-out infinite">
+      </div>
+      <div class="gold-ornament-center" style="margin:24px auto;width:180px"></div>
+      <h2 style="font-size:56px;color:#fff;font-weight:700;margin-bottom:20px;text-shadow:0 4px 20px rgba(0,0,0,.5)">شكراً لكم</h2>
+      <p style="font-size:28px;color:var(--gold);margin-bottom:16px">جامعة نايف العربية للعلوم الأمنية</p>
+      <div class="gold-ornament-center" style="margin:24px auto;width:180px"></div>
+    </div>
+  </div>
+  <div class="slide-number">23</div>
+</section>
+<!-- /AVIATION -->
+
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 07  Aviation Program Video              -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="فيديو برنامج أمن الطيران">
+  <div class="slide-bg kenburns" style="background-image:url('images/4.jpg')"></div>
+  <div class="slide-content" style="padding:20px 40px 80px;justify-content:center;align-items:center">
+    <div class="video-stage-xlarge">
+      <video id="programVideo" poster="images/4.jpg" playsinline preload="metadata">
+        <source src="videos/program.mp4" type="video/mp4">
+        متصفحك لا يدعم تشغيل الفيديو
+      </video>
+      <div class="video-ctrl-overlay" id="programOverlay">
+        <button class="play-btn" id="programPlay">▶</button>
+      </div>
+      <div class="video-hint">اضغط على الفيديو أو زر التحكم للتشغيل والإيقاف</div>
+      <div class="video-bottom-bar">
+        <span>رحلة الإعداد والتميز في برنامج أمن الطيران</span>
+        <div class="vbtns">
+          <button class="vbtn" id="programPause" title="إيقاف مؤقت">⏸</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">24</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 09  Graduate Rep Speech (Al-Ghamdi)     -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="كلمة المشاركين">
+  <div class="slide-bg kenburns" style="background-image:url('images/images1_enhanced.jpg')"></div>
+  <div class="slide-content">
+    <div class="speaker-slide">
+      <div class="kicker" style="font-size:26px">كلمة المشاركين يقدمها</div>
+      <div class="speaker-photo" style="width:220px;height:220px">
+        <img alt="أ.عدنان بن سالم الغامدي" src="images/algamdi_enhanced.jpg" style="width:100%;height:100%;object-fit:cover">
+      </div>
+      <div class="gold-ornament-center" style="margin:14px auto"></div>
+      <p class="speaker-name" style="font-size:32px">أ.عدنان بن سالم الغامدي</p>
+      <p class="speaker-title" style="font-size:20px">نيابة عن المشاركين في البرنامج</p>
+    </div>
+  </div>
+  <div class="slide-number">25</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 10  Certificate Ceremony                -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="مراسم تسليم الشهادات">
+  <div class="slide-bg kenburns" style="background-image:url('images/images2_enhanced.jpg')"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center">
+    <div class="tribute-slide">
+      <div class="gold-ornament-center" style="margin-bottom:16px"></div>
+      <p class="tribute-text">مراسم تسليم الشهادات</p>
+      <p class="tribute-sub">للمشاركين في البرنامج</p>
+      <div class="gold-ornament-center" style="margin-top:16px"></div>
+    </div>
+  </div>
+  <div class="slide-number">26</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 12  Graduate 01: منار مزعل الشامان        -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="منار مزعل الشامان">
+  <div class="slide-bg kenburns" style="background:radial-gradient(ellipse at 50% 30%,#1a3a3d 0%,#0a1a1e 50%,#03080a 100%)"></div>
+  <div class="grad-deco-ring" style="--rd:0deg"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;padding:40px 80px 100px">
+    <div class="grad-card-hero">
+      <div class="grad-num-badge">01</div>
+      <div class="grad-photo-wrap">
+        <div class="grad-photo-ring"></div>
+        <img alt="منار مزعل الشامان" class="grad-photo-img" src="images/graduate_01_manar.jpg">
+      </div>
+      <div class="grad-divider"></div>
+      <p class="grad-name-hero"><span class="grad-honorific">الأستاذة</span><span class="grad-person-name">منار مزعل الشامان</span></p>
+      <div class="grad-country">
+        <img class="grad-flag" src="images/flags/jo.png" alt="علم المملكة الأردنية الهاشمية">
+        <span class="grad-country-name">المملكة الأردنية الهاشمية</span>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">27</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 13  Graduate 02: عدنان بن سالم الغامدي        -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="عدنان بن سالم الغامدي">
+  <div class="slide-bg kenburns" style="background:radial-gradient(ellipse at 50% 30%,#1a3a3d 0%,#0a1a1e 50%,#03080a 100%)"></div>
+  <div class="grad-deco-ring" style="--rd:25deg"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;padding:40px 80px 100px">
+    <div class="grad-card-hero">
+      <div class="grad-num-badge">02</div>
+      <div class="grad-photo-wrap">
+        <div class="grad-photo-ring"></div>
+        <img alt="عدنان بن سالم الغامدي" class="grad-photo-img" src="images/graduate_02_adnan.jpg">
+      </div>
+      <div class="grad-divider"></div>
+      <p class="grad-name-hero"><span class="grad-honorific">الأستاذ</span><span class="grad-person-name">عدنان بن سالم الغامدي</span></p>
+      <div class="grad-country">
+        <img class="grad-flag" src="images/flags/sa.png" alt="علم المملكة العربية السعودية">
+        <span class="grad-country-name">المملكة العربية السعودية</span>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">28</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 14  Graduate 03: محمد بن مبارك العجمي        -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="محمد بن مبارك العجمي">
+  <div class="slide-bg kenburns" style="background:radial-gradient(ellipse at 50% 30%,#1a3a3d 0%,#0a1a1e 50%,#03080a 100%)"></div>
+  <div class="grad-deco-ring" style="--rd:50deg"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;padding:40px 80px 100px">
+    <div class="grad-card-hero">
+      <div class="grad-num-badge">03</div>
+      <div class="grad-photo-wrap">
+        <div class="grad-photo-ring"></div>
+        <img alt="محمد بن مبارك العجمي" class="grad-photo-img" src="images/graduate_03_mohammed_ajmi.jpg">
+      </div>
+      <div class="grad-divider"></div>
+      <p class="grad-name-hero"><span class="grad-honorific">الأستاذ</span><span class="grad-person-name">محمد بن مبارك العجمي</span></p>
+      <div class="grad-country">
+        <img class="grad-flag" src="images/flags/sa.png" alt="علم المملكة العربية السعودية">
+        <span class="grad-country-name">المملكة العربية السعودية</span>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">29</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 15  Graduate 04: رؤى بنت عبدالله الغامدي        -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="رؤى بنت عبدالله الغامدي">
+  <div class="slide-bg kenburns" style="background:radial-gradient(ellipse at 50% 30%,#1a3a3d 0%,#0a1a1e 50%,#03080a 100%)"></div>
+  <div class="grad-deco-ring" style="--rd:75deg"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;padding:40px 80px 100px">
+    <div class="grad-card-hero">
+      <div class="grad-num-badge">04</div>
+      <div class="grad-photo-wrap">
+        <div class="grad-photo-ring"></div>
+        <img alt="رؤى بنت عبدالله الغامدي" class="grad-photo-img" src="images/graduate_04_rawa.jpg">
+      </div>
+      <div class="grad-divider"></div>
+      <p class="grad-name-hero"><span class="grad-honorific">الأستاذة</span><span class="grad-person-name">رؤى بنت عبدالله الغامدي</span></p>
+      <div class="grad-country">
+        <img class="grad-flag" src="images/flags/sa.png" alt="علم المملكة العربية السعودية">
+        <span class="grad-country-name">المملكة العربية السعودية</span>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">30</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 16  Graduate 05: عبدالباري محمد الصاج        -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="عبدالباري محمد الصاج">
+  <div class="slide-bg kenburns" style="background:radial-gradient(ellipse at 50% 30%,#1a3a3d 0%,#0a1a1e 50%,#03080a 100%)"></div>
+  <div class="grad-deco-ring" style="--rd:100deg"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;padding:40px 80px 100px">
+    <div class="grad-card-hero">
+      <div class="grad-num-badge">05</div>
+      <div class="grad-photo-wrap">
+        <div class="grad-photo-ring"></div>
+        <img alt="عبدالباري محمد الصاج" class="grad-photo-img" src="images/graduate_05_abdalbari.jpg">
+      </div>
+      <div class="grad-divider"></div>
+      <p class="grad-name-hero"><span class="grad-honorific">الأستاذ</span><span class="grad-person-name">عبدالباري محمد الصاج</span></p>
+      <div class="grad-country">
+        <img class="grad-flag" src="images/flags/sy.png" alt="علم الجمهورية العربية السورية">
+        <span class="grad-country-name">الجمهورية العربية السورية</span>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">31</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 17  Graduate 06: النور يوسف عبدالكريم        -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="النور يوسف عبدالكريم">
+  <div class="slide-bg kenburns" style="background:radial-gradient(ellipse at 50% 30%,#1a3a3d 0%,#0a1a1e 50%,#03080a 100%)"></div>
+  <div class="grad-deco-ring" style="--rd:125deg"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;padding:40px 80px 100px">
+    <div class="grad-card-hero">
+      <div class="grad-num-badge">06</div>
+      <div class="grad-photo-wrap">
+        <div class="grad-photo-ring"></div>
+        <img alt="النور يوسف عبدالكريم" class="grad-photo-img" src="images/graduate_06_nour.jpg">
+      </div>
+      <div class="grad-divider"></div>
+      <p class="grad-name-hero"><span class="grad-honorific">الأستاذ</span><span class="grad-person-name">النور يوسف عبدالكريم</span></p>
+      <div class="grad-country">
+        <img class="grad-flag" src="images/flags/sd.png" alt="علم جمهورية السودان">
+        <span class="grad-country-name">جمهورية السودان</span>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">32</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 18  Graduate 07: مكرم عبدالمجيد خشخوشة        -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="مكرم عبدالمجيد خشخوشة">
+  <div class="slide-bg kenburns" style="background:radial-gradient(ellipse at 50% 30%,#1a3a3d 0%,#0a1a1e 50%,#03080a 100%)"></div>
+  <div class="grad-deco-ring" style="--rd:150deg"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;padding:40px 80px 100px">
+    <div class="grad-card-hero">
+      <div class="grad-num-badge">07</div>
+      <div class="grad-photo-wrap">
+        <div class="grad-photo-ring"></div>
+        <img alt="مكرم عبدالمجيد خشخوشة" class="grad-photo-img" src="images/graduate_07_mukram.jpg">
+      </div>
+      <div class="grad-divider"></div>
+      <p class="grad-name-hero"><span class="grad-honorific">الأستاذ</span><span class="grad-person-name">مكرم عبدالمجيد خشخوشة</span></p>
+      <div class="grad-country">
+        <img class="grad-flag" src="images/flags/ly.png" alt="علم دولة ليبيا">
+        <span class="grad-country-name">دولة ليبيا</span>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">33</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 19  Graduate 08: أحمد كمال صبيح        -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="أحمد كمال صبيح">
+  <div class="slide-bg kenburns" style="background:radial-gradient(ellipse at 50% 30%,#1a3a3d 0%,#0a1a1e 50%,#03080a 100%)"></div>
+  <div class="grad-deco-ring" style="--rd:175deg"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;padding:40px 80px 100px">
+    <div class="grad-card-hero">
+      <div class="grad-num-badge">08</div>
+      <div class="grad-photo-wrap">
+        <div class="grad-photo-ring"></div>
+        <img alt="أحمد كمال صبيح" class="grad-photo-img" src="images/graduate_08_ahmed.jpg">
+      </div>
+      <div class="grad-divider"></div>
+      <p class="grad-name-hero"><span class="grad-honorific">الأستاذ</span><span class="grad-person-name">أحمد كمال صبيح</span></p>
+      <div class="grad-country">
+        <img class="grad-flag" src="images/flags/eg.png" alt="علم جمهورية مصر العربية">
+        <span class="grad-country-name">جمهورية مصر العربية</span>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">34</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 20  Graduate 09: ياسر محمد عبدالحليم        -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="ياسر محمد عبدالحليم">
+  <div class="slide-bg kenburns" style="background:radial-gradient(ellipse at 50% 30%,#1a3a3d 0%,#0a1a1e 50%,#03080a 100%)"></div>
+  <div class="grad-deco-ring" style="--rd:200deg"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;padding:40px 80px 100px">
+    <div class="grad-card-hero">
+      <div class="grad-num-badge">09</div>
+      <div class="grad-photo-wrap">
+        <div class="grad-photo-ring"></div>
+        <img alt="ياسر محمد عبدالحليم" class="grad-photo-img" src="images/graduate_09_yasser.jpg">
+      </div>
+      <div class="grad-divider"></div>
+      <p class="grad-name-hero"><span class="grad-honorific">الأستاذ</span><span class="grad-person-name">ياسر محمد عبدالحليم</span></p>
+      <div class="grad-country">
+        <img class="grad-flag" src="images/flags/eg.png" alt="علم جمهورية مصر العربية">
+        <span class="grad-country-name">جمهورية مصر العربية</span>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">35</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 21  Graduate 10: محمد عادل سليمان        -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="محمد عادل سليمان">
+  <div class="slide-bg kenburns" style="background:radial-gradient(ellipse at 50% 30%,#1a3a3d 0%,#0a1a1e 50%,#03080a 100%)"></div>
+  <div class="grad-deco-ring" style="--rd:225deg"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center;padding:40px 80px 100px">
+    <div class="grad-card-hero">
+      <div class="grad-num-badge">10</div>
+      <div class="grad-photo-wrap">
+        <div class="grad-photo-ring"></div>
+        <img alt="محمد عادل سليمان" class="grad-photo-img" src="images/graduate_10_adel.jpg">
+      </div>
+      <div class="grad-divider"></div>
+      <p class="grad-name-hero"><span class="grad-honorific">الأستاذ</span><span class="grad-person-name">محمد عادل سليمان</span></p>
+      <div class="grad-country">
+        <img class="grad-flag" src="images/flags/eg.png" alt="علم جمهورية مصر العربية">
+        <span class="grad-country-name">جمهورية مصر العربية</span>
+      </div>
+    </div>
+  </div>
+  <div class="slide-number">36</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 22  Awards / التكريم (big message only) -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="تبادل الهدايا التذكارية">
+  <div class="slide-bg kenburns" style="background-image:url('images/images_enhanced.jpg')"></div>
+  <div class="slide-content">
+    <div class="tribute-slide">
+      <div class="gold-ornament-center" style="margin-bottom:10px"></div>
+      <p class="tribute-text">تبادل الهدايا التذكارية</p>
+      <div class="gold-ornament-center" style="margin-top:10px"></div>
+    </div>
+  </div>
+  <div class="slide-number">37</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 24  Group Photo                         -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide" data-title="الصورة الجماعية">
+  <div class="slide-bg kenburns" style="background-image:url('images/0W0A9080.jpeg')"></div>
+  <div class="slide-content" style="justify-content:center;align-items:center">
+    <div class="tribute-slide">
+      <div class="gold-ornament-center" style="margin-bottom:16px"></div>
+      <p class="tribute-text">الصورة الجماعية</p>
+      <p class="tribute-sub">نتوجه جميعاً إلى الموقع المخصص</p>
+      <div class="gold-ornament-center" style="margin-top:16px"></div>
+    </div>
+  </div>
+  <div class="slide-number">38</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 13–23  Individual Graduates (11 slides) -->
+<!-- ═══════════════════════════════════════ -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ═══════════════════════════════════════ -->
+<!-- 24  Closing / الختام                    -->
+<!-- ═══════════════════════════════════════ -->
+<section class="slide closing" data-title="ختام الحفل">
+  <div class="slide-bg kenburns" style="background-image:url('images/0W0A9166.jpg')"></div>
+  <div class="slide-content">
+    <div class="closing-logo">
+      <img alt="شعار جامعة نايف العربية للعلوم الأمنية" src="images/nauss_logo.png">
+    </div>
+    <div class="gold-ornament-center"></div>
+    <h1 class="h1" style="font-size:60px">شكراً لكم</h1>
+    <p class="closing-sub">حفل اختتام البرنامج التدريبي<br/>«النسخة الأولى» من الدبلوم التنفيذي المعتمد<br/>لأمن الطيران</p>
+    <p class="closing-brand">جامعة نايف العربية للعلوم الأمنية</p>
+    <div class="closing-actions">
+      <button id="restartBtn" type="button">العودة إلى البداية</button>
+      <button id="closingMenuBtn" type="button">فهرس الحفل</button>
+    </div>
+    <div class="closing-footer">
+      <div>برعاية معالي رئيس الجامعة</div>
+      <div>1447 هـ / 2026 م</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- Controls                                -->
+<!-- ═══════════════════════════════════════ -->
+<div aria-label="أدوات العرض" id="controls">
+  <button aria-label="الشريحة السابقة" class="ctrl" id="nextBtn">‹</button>
+  <div id="counter">01 / 39</div>
+  <button aria-label="الشريحة التالية" class="ctrl" id="prevBtn">›</button>
+  <button aria-label="فهرس الشرائح" class="ctrl" id="menuBtn">☰</button>
+  <button aria-label="تشغيل الصوت" class="ctrl sound-muted" id="soundBtn" title="تشغيل الصوت" type="button">🔇</button>
+  <button aria-label="ملء الشاشة" class="ctrl" id="fullBtn">⛶</button>
+</div>
+<div id="progress"></div>
+<div id="toast"></div>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- Menu                                    -->
+<!-- ═══════════════════════════════════════ -->
+<div aria-hidden="true" id="menu">
+  <div class="menu-head"><h2>فهرس الحفل</h2><button class="menu-close" id="menuClose">إغلاق</button></div>
+  <div class="menu-grid" id="menuGrid"></div>
+</div>
+
+</div>
+</div>
+<script>
+(function(){
+'use strict';
+
+/* ─── Mobile VH ─── */
+function setMobileVH(){
+  document.documentElement.style.setProperty('--app-vh',(window.visualViewport?window.visualViewport.height:window.innerHeight)+'px');
+}
+setMobileVH();
+window.addEventListener('resize',setMobileVH);
+if(window.visualViewport){window.visualViewport.addEventListener('resize',setMobileVH);}
+document.addEventListener('gesturestart',function(e){e.preventDefault();});
+
+var deck=document.getElementById('deck');
+/* Replace legacy logo-only separators with contextual chapter dividers. */
+[].slice.call(document.querySelectorAll('.slide')).forEach(function(slide){
+  if(slide.dataset.title==='فاصل'||slide.dataset.title==='افتتاح الحفل') slide.remove();
+});
+
+var chapterDividers=[
+  {before:'القرآن الكريم',title:'افتتاح الحفل بالقرآن الكريم'},
+  {before:'الفيديو التعريفي',title:'الفيديو التعريفي عن الجامعة'},
+  {before:'كلمة معالي رئيس الجامعة',title:'كلمة معالي رئيس الجامعة'},
+  {before:'كلمة نائب رئيس الهيئة',title:'كلمة سعادة نائب الرئيس التنفيذي لأمن الطيران'},
+  {before:'العرض التقديمي للدبلوم التنفيذي المعتمد لأمن الطيران',title:'عرض تقديمي عن بناء القدرات في مجال أمن الطيران يقدمه وكيل الجامعة للتدريب'},
+  {before:'كلمة المشاركين',title:'كلمة المشاركين'}
+];
+chapterDividers.forEach(function(item,i){
+  var target=[].slice.call(document.querySelectorAll('.slide')).find(function(slide){return slide.dataset.title===item.before});
+  if(!target) return;
+  var divider=document.createElement('section');
+  divider.className='slide chapter-divider';
+  divider.dataset.title=item.title;
+  divider.innerHTML='<div class="slide-bg chapter-bg" style="background-image:url(\'images/4.jpg\')"></div>'+
+    '<div class="slide-content"><div class="chapter-stage">'+
+    '<div class="chapter-eyebrow">المحطة التالية</div>'+
+    '<div class="chapter-logo-wrap"><img class="chapter-logo" src="images/nauss_logo_transparent.png" alt="شعار جامعة نايف العربية للعلوم الأمنية"></div>'+
+    '<div class="chapter-rule"></div><h2 class="chapter-title">'+item.title+'</h2>'+
+    '<div class="chapter-seq">NAIF ARAB UNIVERSITY FOR SECURITY SCIENCES</div>'+
+    '</div></div><div class="slide-number"></div>';
+  target.parentNode.insertBefore(divider,target);
+});
+var slides=[].slice.call(document.querySelectorAll('.slide'));
+/* Participant portraits keep their campus background regardless of inserted pages. */
+[].slice.call(document.querySelectorAll('.grad-card-hero')).forEach(function(card){
+  var slide=card.closest('.slide');
+  var background=slide.querySelector('.slide-bg');
+  if(background) background.classList.add('participant-campus-bg');
+});
+/* Use the cleaned transparent university mark everywhere. */
+document.querySelectorAll('img[src="images/nauss_logo.png"]').forEach(function(img){
+  img.src='images/nauss_logo_transparent.png';
+});
+var quranCaption=document.querySelector('#quranVideo ~ .video-bottom-bar > span');
+if(quranCaption) quranCaption.remove();
+/* Re-number after separator removal so the badge and counter always agree. */
+slides.forEach(function(slide,i){
+  var badge=slide.querySelector('.slide-number');
+  if(badge) badge.textContent=String(i+1).padStart(2,'0');
+});
+var counter=document.getElementById('counter');
+var progress=document.getElementById('progress');
+var menu=document.getElementById('menu');
+var menuGrid=document.getElementById('menuGrid');
+var toast=document.getElementById('toast');
+var index=0,touchX=0,touchY=0;
+
+/* ─── Sound System ─── */
+var soundBtn=document.getElementById('soundBtn');
+var soundEnabled=false;
+var soundCtx=null;
+var soundProfiles={1:'opening',2:'soft',3:'soft',4:'soft',5:'attention',6:'attention',7:'soft',8:'attention',9:'attention',10:'decision',11:'soft',12:'soft',13:'soft',14:'soft',15:'soft',16:'soft',17:'soft',18:'soft',19:'soft',20:'soft',21:'soft',22:'count',23:'soft',24:'closing'};
+
+function initSound(){
+  if(!soundCtx){
+    var AC=window.AudioContext||window.webkitAudioContext;
+    if(AC) soundCtx=new AC({latencyHint:'interactive'});
+  }
+  if(soundCtx && soundCtx.state==='suspended') soundCtx.resume();
+}
+
+function setSoundState(on){
+  soundEnabled=!!on;
+  if(soundBtn){
+    soundBtn.textContent=soundEnabled?'🔊':'🔇';
+    soundBtn.classList.toggle('sound-on',soundEnabled);
+    soundBtn.classList.toggle('sound-muted',!soundEnabled);
+    soundBtn.setAttribute('aria-label',soundEnabled?'كتم الصوت':'تشغيل الصوت');
+    soundBtn.setAttribute('title',soundEnabled?'كتم الصوت':'تشغيل الصوت');
+  }
+  try{sessionStorage.setItem('deckSoundEnabled',soundEnabled?'1':'0')}catch(e){}
+}
+
+var lastSoundAt=0;
+function tone(freq,start,dur,gainValue,type){
+  if(!soundCtx) return;
+  var now=soundCtx.currentTime;
+  var osc=soundCtx.createOscillator();
+  var gain=soundCtx.createGain();
+  var filter=soundCtx.createBiquadFilter();
+  osc.type=type||'sine';
+  osc.frequency.setValueAtTime(freq,now+start);
+  filter.type='lowpass';
+  filter.frequency.setValueAtTime(2800,now+start);
+  filter.Q.setValueAtTime(0.62,now+start);
+  var g=Math.min(gainValue||0.010,0.016);
+  gain.gain.setValueAtTime(0.0001,now+start);
+  gain.gain.exponentialRampToValueAtTime(g,now+start+0.028);
+  gain.gain.exponentialRampToValueAtTime(0.0001,now+start+dur);
+  osc.connect(filter);filter.connect(gain);gain.connect(soundCtx.destination);
+  osc.start(now+start);osc.stop(now+start+dur+0.04);
+}
+function formalChime(start){start=start||0;tone(659.25,start,0.18,0.010,'sine');tone(987.77,start+0.055,0.20,0.008,'sine');}
+function formalResolve(start){start=start||0;tone(523.25,start,0.14,0.008,'sine');tone(783.99,start+0.10,0.18,0.010,'sine');tone(1046.50,start+0.22,0.22,0.009,'sine');}
+function playOpeningTone(){formalResolve(0.00);}
+function playAttentionToneSoft(){formalChime(0.00);}
+function playCountTone(){tone(739.99,0.00,0.055,0.006,'sine');tone(783.99,0.070,0.055,0.006,'sine');tone(830.61,0.140,0.060,0.006,'sine');formalChime(0.240);}
+function playDecisionTone(){tone(659.25,0.00,0.11,0.008,'sine');tone(880.00,0.14,0.16,0.009,'sine');formalChime(0.32);}
+function playClosingTone(){tone(987.77,0.00,0.14,0.008,'sine');tone(783.99,0.16,0.22,0.010,'sine');}
+
+function playSlideSound(slideNo){
+  try{
+    if(!soundEnabled) return;
+    var nowTs=Date.now();
+    if(nowTs-lastSoundAt<280) return;
+    lastSoundAt=nowTs;
+    var profile=soundProfiles[slideNo]||'soft';
+    initSound();
+    if(!soundCtx) return;
+    if(slideNo===1){playOpeningTone();return;}
+    if(slideNo===slides.length){playClosingTone();return;}
+    if(profile==='opening'){playOpeningTone();return;}
+    if(profile==='count'){playCountTone();return;}
+    if(profile==='decision'){setTimeout(playDecisionTone,160);return;}
+    if(profile==='closing'){playClosingTone();return;}
+    if(profile==='attention'){playAttentionToneSoft();return;}
+    formalChime(0.00);
+  }catch(e){console.warn('sound skipped',e);}
+}
+
+if(soundBtn){
+  var savedSoundState=null;
+  try{savedSoundState=sessionStorage.getItem('deckSoundEnabled')}catch(e){}
+  setSoundState(savedSoundState==='0'?false:true);
+  soundBtn.addEventListener('click',function(){
+    setSoundState(!soundEnabled);
+    if(soundEnabled){initSound();showToast('تم تشغيل النغمات الهادئة');playSlideSound(index+1);}
+    else{showToast('تم كتم تنبيهات الصوت');}
+  });
+}
+
+var naussOpeningTonePending=true;
+function playOpeningToneOnFirstGesture(){
+  if(!naussOpeningTonePending||!soundEnabled) return;
+  naussOpeningTonePending=false;
+  initSound();
+  if(soundCtx) playSlideSound(1);
+}
+['pointerdown','keydown','touchstart'].forEach(function(evt){
+  window.addEventListener(evt,playOpeningToneOnFirstGesture,{once:true,passive:true});
+});
+
+/* ─── Particles ─── */
+var canvas=document.getElementById('particles');
+var ctx=canvas.getContext('2d');
+var particles=[];
+var W,H;
+function resizeCanvas(){
+  W=canvas.width=deck.clientWidth||1600;
+  H=canvas.height=deck.clientHeight||900;
+}
+resizeCanvas();
+window.addEventListener('resize',resizeCanvas);
+for(var i=0;i<60;i++){
+  particles.push({
+    x:Math.random()*1600,y:Math.random()*900,
+    r:Math.random()*1.5+.5,
+    dx:(Math.random()-.5)*.3,dy:(Math.random()-.5)*.3,
+    o:Math.random()*.4+.2
+  });
+}
+function drawParticles(){
+  ctx.clearRect(0,0,W,H);
+  particles.forEach(function(p){
+    p.x+=p.dx;p.y+=p.dy;
+    if(p.x<0)p.x=W;if(p.x>W)p.x=0;
+    if(p.y<0)p.y=H;if(p.y>H)p.y=0;
+    ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fillStyle='rgba(199,176,140,'+p.o+')';ctx.fill();
+  });
+  requestAnimationFrame(drawParticles);
+}
+drawParticles();
+
+/* ─── Video Players ─── */
+function setupVideo(videoId,overlayId,playId,pauseId){
+  var video=document.getElementById(videoId);
+  var overlay=document.getElementById(overlayId);
+  var playBtn=document.getElementById(playId);
+  var pauseBtn=document.getElementById(pauseId);
+  if(!video||!overlay||!playBtn) return;
+  
+  var stage=video.closest('.video-stage,.video-stage-large,.video-stage-xlarge');
+  var controls=stage?stage.querySelector('.video-bottom-bar .vbtns'):null;
+  var fsBtn=document.createElement('button');
+  fsBtn.className='vbtn video-fs-btn';fsBtn.type='button';fsBtn.title='إنهاء وضع ملء الشاشة';fsBtn.setAttribute('aria-label','تبديل وضع ملء الشاشة');fsBtn.textContent='⛶';
+  if(controls) controls.appendChild(fsBtn);
+  var navBar=document.createElement('div');
+  navBar.className='video-nav-bar';
+  navBar.setAttribute('aria-label','التنقل بين صفحات العرض');
+  navBar.innerHTML='<button type="button" class="video-nav-prev" aria-label="الصفحة السابقة">‹</button><span class="video-nav-counter"></span><button type="button" class="video-nav-next" aria-label="الصفحة التالية">›</button>';
+  if(stage) stage.appendChild(navBar);
+  /* RTL controls: the left arrow advances and the right arrow returns. */
+  navBar.querySelector('.video-nav-prev').setAttribute('aria-label','الصفحة التالية');
+  navBar.querySelector('.video-nav-next').setAttribute('aria-label','الصفحة السابقة');
+  navBar.querySelector('.video-nav-prev').addEventListener('click',function(e){e.stopPropagation();next()});
+  navBar.querySelector('.video-nav-next').addEventListener('click',function(e){e.stopPropagation();prev()});
+
+  function syncControls(){
+    if(pauseBtn){pauseBtn.textContent=video.paused?'▶':'⏸';pauseBtn.title=video.paused?'تشغيل':'إيقاف مؤقت';pauseBtn.classList.add('video-play-toggle');}
+    fsBtn.textContent=(document.fullscreenElement===stage||stage.classList.contains('video-theater-fallback'))?'↙':'⛶';
+    fsBtn.title=(document.fullscreenElement===stage||stage.classList.contains('video-theater-fallback'))?'العودة إلى العرض':'ملء الشاشة';
+  }
+  function playVideo(){overlay.classList.add('hidden');var p=video.play();if(p&&p.catch)p.catch(function(){overlay.classList.remove('hidden');syncControls()});}
+  function pauseVideo(){video.pause();overlay.classList.remove('hidden');}
+  function toggleVideo(){if(video.paused){playVideo();}else{pauseVideo();}}
+  
+  playBtn.addEventListener('click',function(e){e.stopPropagation();playVideo();});
+  if(pauseBtn) pauseBtn.addEventListener('click',function(e){e.stopPropagation();toggleVideo();});
+  fsBtn.addEventListener('click',function(e){e.stopPropagation();toggleVideoFullscreen(stage);});
+  
+  video.preload='metadata';
+  video.addEventListener('click',toggleVideo);
+  video.addEventListener('play',syncControls);
+  video.addEventListener('pause',syncControls);
+  video.addEventListener('ended',function(){overlay.classList.remove('hidden');exitVideoMode(stage);syncControls();});
+  document.addEventListener('fullscreenchange',syncControls);
+  syncControls();
+}
+setupVideo('quranVideo','quranOverlay','quranPlay','quranPause');
+setupVideo('introVideo','introOverlay','introPlay','introPause');
+setupVideo('programVideo','programOverlay','programPlay','programPause');
+
+/* ─── Fit & Navigation ─── */
+function fit(){
+  if(window.matchMedia('(max-width:900px) and (orientation:portrait)').matches){deck.style.transform='none';return;}
+  var s=Math.min(window.innerWidth/1600,window.innerHeight/900);
+  deck.style.transform='translate(-50%,-50%) scale('+s+')';
+}
+function showToast(t){toast.textContent=t;toast.classList.add('show');clearTimeout(showToast.t);showToast.t=setTimeout(function(){toast.classList.remove('show')},1400);}
+
+function updateUI(){
+  if(counter) counter.textContent=String(index+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0');
+  document.querySelectorAll('.video-nav-counter').forEach(function(el){el.textContent=String(index+1).padStart(2,'0')+' / '+String(slides.length).padStart(2,'0')});
+  if(progress) progress.style.width=((index+1)/slides.length*100)+'%';
+  if(menuGrid) [].forEach.call(menuGrid.children,function(b,i){b.classList.toggle('active',i===index)});
+}
+
+function go(to,dir){
+  to=Math.max(0,Math.min(slides.length-1,to));
+  if(to===index){updateUI();return;}
+  var oldSlide=slides[index];
+  var movingForward=to>index;
+  if(oldSlide.querySelector('video')) exitVideoMode(oldSlide.querySelector('.video-stage,.video-stage-large,.video-stage-xlarge'));
+  slides.forEach(function(s){s.classList.remove('enter-forward','enter-backward','exit-forward','exit-backward')});
+  oldSlide.classList.remove('active');
+  oldSlide.classList.add(movingForward?'exit-forward':'exit-backward');
+  slides.forEach(function(s,i){s.classList.toggle('prev',i<to);s.setAttribute('aria-hidden',i===to?'false':'true')});
+  index=to;
+  slides[index].classList.add('active',movingForward?'enter-forward':'enter-backward');
+  window.setTimeout(function(){oldSlide.classList.remove('exit-forward','exit-backward')},700);
+  updateUI();
+  playSlideSound(index+1);
+  pauseOtherVideos(slides[index]);
+  enterVideoMode(slides[index]);
+  autoPlayVideo(slides[index]);
+  try{history.replaceState(null,'','#slide-'+(index+1))}catch(e){}
+}
+
+/* Full-screen is requested synchronously during navigation so click/key gestures remain valid. */
+function enterVideoMode(slide){
+  var stage=slide.querySelector('.video-stage,.video-stage-large,.video-stage-xlarge');
+  if(!stage) return;
+  stage.classList.remove('video-theater-fallback');
+  if(stage.requestFullscreen){
+    try{
+      var request=stage.requestFullscreen({navigationUI:'hide'});
+      if(request&&request.catch) request.catch(function(){if(slide.classList.contains('active'))stage.classList.add('video-theater-fallback')});
+    }catch(e){stage.classList.add('video-theater-fallback')}
+  }else{stage.classList.add('video-theater-fallback')}
+}
+
+function exitVideoMode(stage){
+  if(!stage) return;
+  stage.classList.remove('video-theater-fallback');
+  if(document.fullscreenElement===stage&&document.exitFullscreen){
+    try{var exit=document.exitFullscreen();if(exit&&exit.catch)exit.catch(function(){})}catch(e){}
+  }
+}
+
+function toggleVideoFullscreen(stage){
+  if(!stage) return;
+  if(document.fullscreenElement===stage||stage.classList.contains('video-theater-fallback')){
+    exitVideoMode(stage);showToast('تمت العودة إلى العرض');
+  }else{
+    var slide=stage.closest('.slide');enterVideoMode(slide);showToast('تم تفعيل وضع ملء الشاشة');
+  }
+}
+
+/* ─── Auto-play video on slide transition ─── */
+function autoPlayVideo(slide){
+  var video=slide.querySelector('video');
+  var overlay=slide.querySelector('.video-ctrl-overlay');
+  if(!video) return;
+  if(overlay) overlay.classList.add('hidden');
+  video.currentTime=0;
+  video.play().catch(function(){if(overlay) overlay.classList.remove('hidden');});
+}
+
+/* ─── Pause all other videos ─── */
+function pauseOtherVideos(currentSlide){
+  document.querySelectorAll('video').forEach(function(v){
+    if(!currentSlide.contains(v)){v.pause();v.currentTime=0;}
+  });
+}
+
+/* Arrow fix: right button (←) goes BACK, left button (→) goes FORWARD */
+function next(){if(index<slides.length-1)go(index+1,1)}
+function prev(){if(index>0)go(index-1,-1)}
+
+window.deckNav={go:go,next:next,prev:prev,count:function(){return slides.length},current:function(){return index+1},sound:function(on){setSoundState(!!on)}};
+
+/* Button wiring: nextBtn (←) = prev, prevBtn (→) = next */
+document.getElementById('nextBtn').addEventListener('click',prev);
+document.getElementById('prevBtn').addEventListener('click',next);
+
+slides.forEach(function(s,i){
+  var b=document.createElement('button');b.className='menu-item'+(i===0?' active':'');
+  b.innerHTML='<div class="mn">'+String(i+1).padStart(2,'0')+'</div><div class="mt">'+s.dataset.title+'</div>';
+  b.addEventListener('click',function(){menu.classList.remove('open');go(i,i>index?1:-1)});
+  menuGrid.appendChild(b);
+});
+
+function openMenu(){menu.classList.add('open');menu.setAttribute('aria-hidden','false')}
+function closeMenu(){menu.classList.remove('open');menu.setAttribute('aria-hidden','true')}
+
+document.getElementById('menuBtn').addEventListener('click',openMenu);
+document.getElementById('menuClose').addEventListener('click',closeMenu);
+document.getElementById('fullBtn').addEventListener('click',function(){
+  try{if(!document.fullscreenElement){document.documentElement.requestFullscreen();showToast('تم تفعيل وضع ملء الشاشة')}else{document.exitFullscreen();showToast('تم إنهاء وضع ملء الشاشة')}}catch(e){showToast('تعذر تغيير وضع الشاشة')}
+});
+var restartBtn=document.getElementById('restartBtn');
+var closingMenuBtn=document.getElementById('closingMenuBtn');
+var coverStart=document.getElementById('coverStart');
+if(restartBtn) restartBtn.addEventListener('click',function(){go(0,-1)});
+if(closingMenuBtn) closingMenuBtn.addEventListener('click',openMenu);
+if(coverStart) coverStart.addEventListener('click',next);
+
+document.addEventListener('keydown',function(e){
+  if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;
+  if(e.target.matches('button')&&(e.key==='Enter'||e.key===' '))return;
+  /* RTL ceremony navigation: right arrow returns, left arrow advances. */
+  if(e.key==='ArrowRight'){e.preventDefault();prev()}
+  if(e.key==='ArrowLeft'){e.preventDefault();next()}
+  /* Presenter remotes commonly emit PageDown/PageUp or Space. */
+  if(e.key==='PageDown'||e.key===' '){e.preventDefault();next()}
+  if(e.key==='PageUp'){e.preventDefault();prev()}
+  if(e.key==='Home'){go(0,-1)}
+  if(e.key==='End'){go(slides.length-1,1)}
+  if(e.key.toLowerCase()==='m'){menu.classList.toggle('open')}
+  if(e.key.toLowerCase()==='f'){document.getElementById('fullBtn').click()}
+  if(e.key==='Escape'){closeMenu()}
+});
+
+deck.addEventListener('touchstart',function(e){var t=e.changedTouches[0];touchX=t.clientX;touchY=t.clientY},{passive:true});
+deck.addEventListener('touchend',function(e){
+  if(e.target.closest('button'))return;
+  var t=e.changedTouches[0],dx=t.clientX-touchX,dy=t.clientY-touchY;
+  if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy)){dx>0?next():prev()}
+},{passive:true});
+
+window.addEventListener('resize',fit);window.addEventListener('orientationchange',fit);fit();updateUI();
+
+var hm=location.hash.match(/slide-(\d+)/);
+if(hm){var n=Number(hm[1])-1;go(n,1)}
+
+progress.style.width=((index+1)/slides.length*100)+'%';
+slides.forEach(function(s,i){s.setAttribute('aria-hidden',i===index?'false':'true')});
+updateUI();
+playSlideSound(index+1);
+
+})();
+</script>
+</body>
+</html>
